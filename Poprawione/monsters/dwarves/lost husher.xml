@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lost Husher" nameDescription="a lost husher" race="blood" experience="1800" speed="250" manacost="0">
+	<health now="1600" max="1600" />
+	<look type="537" corpse="19964" />
+  <targetchange interval="2000" chance="10" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="0" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="4" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="10" attack="10" />
+    <attack name="manadrain" interval="2000" chance="10" target="0" radius="5" min="-50" max="-250">
+      <attribute key="areaEffect" value="blacksmoke" />
+    </attack>
+    <attack name="death" interval="2000" chance="10" length="7" spread="0" target="0" min="-150" max="-350">
+      <attribute key="areaEffect" value="blacksmoke" />
+    </attack>
+    <attack name="earth" interval="2000" chance="15" range="7" radius="2" target="1" min="-150" max="-200">
+      <attribute key="shootEffect" value="earth" />
+      <attribute key="areaEffect" value="greenshimmer" />
+    </attack>
+    <attack name="death" interval="2000" chance="10" range="7" radius="1" target="1" min="-150" max="-200">
+      <attribute key="shootEffect" value="death" />
+      <attribute key="areaEffect" value="mortarea" />
+    </attack>
+    <attack name="drunk" interval="2000" chance="10" radius="4" target="0" duration="4000">
+      <attribute key="areaEffect" value="rednote" />
+    </attack>
+  </attacks>
+  <defenses armor="55" defense="23">
+    <defense name="healing" interval="2000" chance="21" min="75" max="125">
+      <attribute key="areaEffect" value="blueshimmer" />
+    </defense>
+    <defense name="speed" interval="2000" chance="12" speedchange="350" radius="1" duration="6000">
+      <attribute key="areaEffect" value="yellowenergy" />
+    </defense>
+    <defense name="invisible" interval="2000" chance="11" duration="7000">
+      <attribute key="areaeffect" value="teleport"/>
+    </defense>
+  </defenses>
+  <elements>
+    <element deathPercent="5" />
+    <element firePercent="40" />
+    <element energyPercent="15" />
+    <element icePercent="5" />
+    <element icePercent="15" />
+    <element physicalPercent="5" />
+  </elements>
+  <immunities>
+    <immunity earth="1" />
+    <immunity drunk="1" />
+    <immunity paralyze="1" />
+    <immunity invisible="1" />
+  </immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="Arr far zwar!"/>
+		<voice sentence="Charka! Charka! Chooo!"/>
+		<voice sentence="Fu har fuz hada!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="100000" /><!-- Gold Coin -->
+		<item id="2152" countmax="2" chance="60670" /><!-- Platinum Coin -->
+		<item id="2789" countmax="2" chance="15220" /><!-- Brown Mushroom -->
+		<item id="20135" chance="5410" /><!-- Basalt Fetish -->
+		<item id="7588" countmax="3" chance="9850" /><!-- SHP -->
+		<item id="7590" countmax="2" chance="10510" /><!-- GMP -->
+		<item id="9970" chance="9870" /><!-- Small Topazes -->
+		<item id="20137" chance="8050" /><!-- Basalt Figurine -->
+		<item id="20110" chance="9080" /><!-- Bonecarving Knife -->
+		<item id="20111" chance="8200" /><!-- Bone Fetish -->
+		<item id="20128" chance="9310" /><!-- Skull Shatterer -->
+		<item id="13757" chance="12290" /><!-- Coal -->
+		<item id="20129" chance="12270" /><!-- Holy Ash -->
+		<item id="20127" chance="8710" /><!-- Lost Husher's Staff -->
+		<item id="20134" chance="14970" /><!-- Red Hair Dye -->
+		<item id="20127" chance="11730" /><!-- Wimp Tooth Chain -->
+		<item id="11339" chance="830" /><!-- Clay Lump -->
+		<item id="2215" chance="2600" /><!-- Dwarven Ring -->
+		<item id="2515" chance="1060" /><!-- Guardian Shield -->
+		<item id="2430" chance="780" /><!-- Knight Axe -->
+		<item id="7452" chance="310" /><!-- Spiked Squelcher -->
+		<item id="2528" chance="170" /><!-- Tower Shield -->
+		<item id="20109" chance="910" /><!-- buckle -->
+		<item id="2436" chance="410" /><!-- Skull Staff -->
+		<item id="7886" chance="660" /><!-- terra boots -->
+		<item id="2432" chance="230" /><!-- fire axe -->
+		<item id="7885" chance="210" /><!-- terra legs -->
+	</loot>
+</monster>

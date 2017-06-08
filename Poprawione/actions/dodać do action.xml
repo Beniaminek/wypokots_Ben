@@ -1,0 +1,3 @@
+	dodać do action.xml
+    <action actionid="2490" script="dziury_w_ziemi.lua"/>
+    <action actionid="2491" script="asury_door.lua"/>
