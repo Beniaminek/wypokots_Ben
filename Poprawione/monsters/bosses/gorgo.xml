@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gorgo" nameDescription="Gorgo" race="blood" experience="7000" speed="250" manacost="0">
+	<health now="4500" max="4500" />
+	<look type="330" corpse="10524" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="600" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="102" attack="80" poison="840"/>
+		<attack name="earth" interval="2000" chance="10" length="8" spread="3" min="-250" max="-500">
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+	<attack name="lifedrain" interval="2000" chance="20" range="7" min="-10" max="-136"> 
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaeffect" value="carniphila"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-10" max="-94"> 
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaeffect" value="carniphila"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-15" max="-62"> 
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaeffect" value="carniphila"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-5" max="-38"> 
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaeffect" value="carniphila"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-5" max="-20"> 
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaeffect" value="carniphila"/>
+		</attack>
+		<attack name="medusa paralyze" interval="2000" chance="9" range="7"/>
+		<attack name="outfit" interval="2000" chance="11" range="7" monster="clay guardian" duration="4000"/> 
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="25" min="150" max="300">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="20" />
+		<element firePercent="-5" />
+		<element energyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity lifedrain="1" />
+		<immunity drown="1" />
+	</immunities>
+	<loot>
+		<item id="2536" chance="100000" />				<!-- medusa shield -->
+		<item id="2152" countmax="19" chance="100000" />	<!-- platinum coin -->
+		<item id="11226" chance="100000" />				<!-- strand of medusa hair -->
+		<item id="7590" countmax="2" chance="77000" />	<!-- great mana potion -->
+		<item id="10219" chance="71000" />				<!-- sacred tree amulet -->
+		<item id="8473" countmax="2" chance="52000" />	<!-- ultimate health potion -->
+		<item id="2149" countmax="4" chance="53470" />	<!-- small emerald -->
+		<item id="7887" chance="38470" />				<!-- terra amulet -->
+		<item id="7884" chance="40470" />				<!-- terra mantle -->
+		<item id="7885" chance="40300" />				<!-- terra legs -->
+		<item id="7413" chance="49300" />				<!-- titan axe -->
+	</loot>
+</monster>

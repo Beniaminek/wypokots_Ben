@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Thul" nameDescription="a thul" race="blood" experience="2700" speed="520" manacost="670">
+	<health now="2950" max="2950" />
+	<look type="46" corpse="6065" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="47" attack="100" poison="120"/>
+		<attack name="lifedrain" interval="2000" chance="13" range="7" radius="3" target="0" min="-100" max="-150">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="12" range="7" radius="4" target="0" min="-100" max="-140">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="poisonfield" interval="2000" chance="11" range="7" radius="3" target="0">
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+    		<attack name="thul paralyze" interval="2000" chance="10" range="7"/>
+		<attack name="quara constrictor electrify" interval="2000" chance="18" range="1"/>
+	</attacks>
+	<defenses armor="35" defense="40">
+    		<defense name="healing" interval="2000" chance="30" min="215" max="320">
+      			<attribute key="areaEffect" value="redshimmer" />
+    		</defense>
+		<defense name="speed" interval="2000" chance="9" speedchange="856" duration="6000">
+			<attribute key="areaEffect" value="bubbles"/>
+		</defense>
+  	</defenses>
+	<elements>
+		<element energyPercent="-15" />
+	</elements>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity ice="1" />
+		<immunity earth="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Gaaahhh!" />
+	</voices>
+	<summons maxSummons="2">
+		<summon name="Massive Water Elementals" interval="2000" chance="10" max="2" />
+	</summons>
+	<loot>
+		<item id="2487" chance="17140" /><!-- crown armor -->
+		<item id="2497" chance="20030" /><!-- crusader helmet -->
+		<item id="5895" countmax="1" chance="100000"/><!-- fish fin -->
+		<item id="7590" chance="45780" /><!-- great mana potion -->
+		<item id="7963" chance="71430" /><!-- marlin -->
+		<item id="2152" countmax="10" chance="87500"/><!-- platinum coin -->
+		<item id="7383" chance="22840" /><!-- relic sword -->
+		<item id="2150" countmax="4" chance="42060"/><!-- small amethyst -->
+	</loot>
+</monster>
