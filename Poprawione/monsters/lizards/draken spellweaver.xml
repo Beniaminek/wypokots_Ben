@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="3100" speed="190" manacost="0">
+	<health now="5000" max="5000" />
+	<look type="340" corpse="11316" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="70" attack="63" />
+		<attack name="fire" interval="2000" chance="10" length="4" spread="3" min="-240" max="-480">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+		<attack name="fire" interval="2000" chance="10" range="7" target="1" min="-100" max="-250">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="10" range="7" target="1" min="-150" max="-300">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		</attack>
+		<attack name="soulfire" interval="2000" chance="10" />
+		<attack name="poisoncondition" interval="2000" chance="10" target="1" min="-280" max="-360" >
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="invisible" interval="2000" chance="10" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="13" min="370" max="530">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="75" />
+		<element holyPercent="-5" />
+		<element energyPercent="-10" />
+		<element icePercent="-10" />
+		<element physicalPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Kazzzzuuuum!!" />
+		<voice sentence="Fissziss!" />
+		<voice sentence="Zzzzzooom!!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="200" chance="100000" /><!-- gold coin -->
+		<item id="2152" countmax="5" chance="25310" /><!-- platinum coin -->
+		<item id="2147" countmax="5" chance="7080" /><!-- small ruby -->
+		<item id="8871" chance="1460" /><!-- focus cape -->
+		<item id="2666" chance="30400" /><!-- meat -->
+		<item id="13294" chance="30" /><!-- harness -->
+		<item id="11303" chance="1960" /><!-- zaoan shoes -->
+		<item id="2187" chance="1620" /><!-- wand of inferno -->
+		<item id="11314" chance="20130" /><!-- weaver's wandtip -->
+		<item id="7590" chance="5070" /><!-- great mana potion -->
+		<item id="2123" chance="430" /><!-- ring of the sky -->
+		<item id="13538" chance="200" /><!-- bamboo leaves -->
+		<item id="12410" chance="1920" /><!-- luminous orb -->
+		<item id="11355" chance="750" /><!-- spellweaver's robe -->
+		<item id="11315" chance="10" /><!-- draken trophy -->
+		<item id="12614" chance="3970" /><!-- draken sulphur-->
+		<item id="11356" chance="760" /><!-- zaoan robe-->
+		<item id="2155" chance="1040" /><!-- green gem -->
+	</loot>
+</monster>
