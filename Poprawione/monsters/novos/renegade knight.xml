@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Renegade Knight" nameDescription="a renegade knight" race="blood" experience="1200" speed="280" manacost="390">
+	<health now="1450" max="1450" />
+	<look type="268" head="97" body="132" legs="76" feet="98" addons="2" corpse="24676" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+	<attack name="renegade knight" interval="2000" chance="30"/>
+		<attack name="melee" interval="2000" min="10" max="-175" />
+	</attacks>
+	<defenses armor="35" defense="50">
+		<defense name="healing" interval="4000" chance="25" min="200" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="-10" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
+		<element holyPercent="50" />
+		<element physicalPercent="15" />
+		<element energyPercent="35" />
+	</elements>
+	<immunities>
+		
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="13">
+		<voice sentence="I'll teach you a lesson!" />
+		<voice sentence="Your abilities are no match for mine!" />
+		<voice sentence="Take this!" />
+		<voice sentence="Let's see how good you are!" />
+		<voice sentence="Feel my steel!" />
+		<voice sentence="A challenge at last!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="99000" />	<!-- gold coin -->		
+		<item id="2152" countmax="2" chance="26000" />
+		<item id="7591" chance="7150" />	<!-- Great Health Potion -->		
+		<item id="2666" countmax="2" chance="10000" />	<!-- Meat -->		
+		<item id="2147" chance="4000" />
+		<item id="2487" chance="610" />	<!-- Crown Armor -->
+		<item id="2491" chance="510" />	<!-- Crown Helmet -->
+		<item id="2519" chance="100" />	<!-- Crown Shield -->
+		<item id="2488" chance="770" />	<!-- Crown Legs -->
+		
+		<item id="2392" chance="420" />	<!-- Fire Sword -->
+		<item id="2381" chance="1610" />	<!-- Halberd -->
+
+		<item id="12466" chance="6300" />	<!-- Scroll of Heroic Deeds -->
+		<item id="12406" chance="1600" />	<!-- Small Notebook -->
+
+	</loot>
+</monster>
