@@ -21,9 +21,8 @@
 	</attacks>
 	<defenses armor="40" defense="57" />
 	<elements>
-		<element earthPercent="20" />
-		<element icePercent="20" />
-		<element physicalPercent="15" />
+		<element earthPercent="15" />
+		<element icePercent="-10" />
 		<element firePercent="-10" />
 	</elements>
 	<immunities>
@@ -31,12 +30,13 @@
 		<immunity invisible="1" />
 	</immunities>
 	<loot>
-		<item id="2152" countmax="3" chance="83825" /><!-- platinum coin -->
-		<item id="2148" countmax="65" chance="66900" /><!-- gold coin -->
-		<item id="3973" chance="83825" /><!-- tusk shield -->
-		<item id="8614" countmax="2" chance="58825" /><!-- tusk -->
-		<item id="7463" chance="42175" /><!-- mammoth fur cape -->
-		<item id="7432" chance="50500" /><!-- furry club -->
-		<item id="11238" countmax="2" chance="38000" /><!-- mammoth tusk -->
+		<item id="2152" countmax="5" chance="100000" /><!-- platinum coin -->
+		<item id="2148" countmax="100" chance="100000" /><!-- gold coin -->
+		<item id="3973" chance="71825" /><!-- tusk shield -->
+		<item id="8614" countmax="4" chance="41825" /><!-- tusk -->
+		<item id="7463" chance="43175" /><!-- mammoth fur cape -->
+		<item id="7432" chance="62500" /><!-- furry club -->
+		<item id="5911" chance="60006" /><!-- red piece of cloth -->
+		<item id="11238" countmax="2" chance="100000" /><!-- mammoth tusk -->
 	</loot>
 </monster>

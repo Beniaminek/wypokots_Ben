@@ -16,19 +16,19 @@
 		<flag runonhealth="600" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="75" attack="70" />
+		<attack name="melee" interval="2000" skill="100" attack="105" />
 		<attack name="earth" interval="1000" chance="8" length="9" spread="3" min="-130" max="-460">
 			<attribute key="areaEffect" value="bigplants" />
 		</attack>
-		<attack name="ice" interval="1000" chance="10" length="9" spread="3" min="-365" max="-491">
+		<attack name="ice" interval="1000" chance="15" length="9" spread="3" min="-365" max="-530">
 			<attribute key="areaEffect" value="icearea" />
 		</attack>
 		<attack name="drown" interval="1000" chance="11" radius="4" target="1" min ="-15" max="-20">
 			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
 	</attacks>
-	<defenses armor="20" defense="30">
-		<defense name="healing" interval="1000" chance="25" min="50" max="150">
+	<defenses armor="30" defense="25">
+		<defense name="healing" interval="1000" chance="25" min="50" max="500">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -49,15 +49,16 @@
 		<element deathPercent="-10" />
 	</elements>
 	<loot>
-		<item id="10220" countmax="80" chance="100000" /><!-- leviathan¹s amulet -->
-		<item id="2152" countmax="6" chance="80000" /><!-- platinum coin -->
-		<item id="2146" countmax="3" chance="52000" /><!-- small saphire -->
-		<item id="9810" countmax="80" chance="80000" /><!-- rusty armor -->
-		<item id="10529" countmax="80" chance="100000" /><!-- sea serpent trophy -->
-		<item id="9813" countmax="80" chance="80000" /><!-- rusty legs -->
-		<item id="7428" countmax="80" chance="54000" /><!-- bonebreaker -->
-		<item id="10521" countmax="80" chance="17700" /><!-- moon backpack -->
-		<item id="8887" countmax="80" chance="930" /><!-- frozen plate -->
+		<item id="10220" chance="100000" /><!-- leviathan's amulet -->
+		<item id="2152" countmax="7" chance="92000" /><!-- platinum coin -->
+		<item id="2146" countmax="5" chance="61000" /><!-- small saphire -->
+		<item id="9810" chance="82000" /><!-- rusty armor -->
+		<item id="10529" chance="100000" /><!-- sea serpent trophy -->
+		<item id="9813" chance="82000" /><!-- rusty legs -->
+		<item id="7428" chance="56000" /><!-- bonebreaker -->
+		<item id="10521" chance="12700" /><!-- moon backpack -->
+		<item id="8887" chance="1280" /><!-- frozen plate -->
+		<item id="7589" chance="38490" /><!-- strong mana potion -->
 
 	</loot>
 </monster>

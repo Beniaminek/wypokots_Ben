@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Bloodweb" nameDescription="the bloodweb" race="undead" experience="900" speed="340" manacost="0">
-	<health now="1250" max="1250" />
+<monster name="The Bloodweb" nameDescription="the bloodweb" race="undead" experience="1450" speed="340" manacost="0">
+	<health now="1750" max="1750" />
 	<look type="263" corpse="7344" />
 	<targetchange speed="20000" chance="8" />
 	<flags>
@@ -19,16 +19,15 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="40" attack="100" poison="8" />
-		<attack name="speed" interval="2000" chance="20" range="7" radius="7" target="0" speedchange="-850" duration="8000">
-			<attribute key="areaEffect" value="poff" />
-		</attack>
-		<attack name="energy" interval="1000" chance="25" range="7" target="1" min="-60" max="-150">
-			<attribute key="shootEffect" value="energy" />
-			<attribute key="areaEffect" value="energy" />
+		<attack name="crystal spider paralyze 1" interval="2000" chance="14"/>
+		<attack name="crystal spider paralyze 2" interval="2000" chance="12"/>
+		<attack name="ice" interval="2000" chance="15" range="7" target="1" min="-50" max="-100">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="icearea" />
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="20">
-		<defense name="speed" interval="3000" chance="40" speedchange="380" duration="80000">
+	<defenses armor="45" defense="15">
+		<defense name="speed" interval="3000" chance="10" speedchange="380" duration="6000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
@@ -50,17 +49,16 @@
 	<loot>
 		<item id="2463" chance="100000" /><!-- ice cube -->
 		<item id="7364" countmax="9" chance="100000" /><!-- platinum coin -->
-		<item id="7589" chance="100000" /><!-- strong mana potion -->
-		<item id="5879" chance="50000" /><!-- spider silk-->
-		<item id="7902" chance="33333" /><!-- glacier mask -->
-		<item id="7896" chance="33333" /><!-- glacier kilt -->
-		<item id="11306" chance="20000" /><!-- sais -->
-		<item id="7437" chance="20000" /><!-- sapphire hammer -->
-		<item id="5801" chance="7692" /><!-- jewelled backpack -->
-		<item id="2476" chance="7692" /><!-- knight armor -->
-		<item id="2477" chance="5555" /><!-- knight legs -->
-		<item id="7290" chance="3703" /><!-- shard -->
-		<item id="2169" chance="3703" /><!-- time ring -->
-		<item id="6578" chance="1886" /><!-- party hat -->
+		<item id="7589" chance="82000" /><!-- strong mana potion -->
+		<item id="5879" countmax="3" chance="65000" /><!-- spider silk-->
+		<item id="7902" chance="25333" /><!-- glacier mask -->
+		<item id="7896" chance="31333" /><!-- glacier kilt -->
+		<item id="11306" chance="30000" /><!-- sais -->
+		<item id="7437" chance="17000" /><!-- sapphire hammer -->
+		<item id="5801" chance="7892" /><!-- jewelled backpack -->
+		<item id="2476" chance="12692" /><!-- knight armor -->
+		<item id="2477" chance="7555" /><!-- knight legs -->
+		<item id="7290" chance="1903" /><!-- shard -->
+		<item id="2169" chance="2003" /><!-- time ring -->
 	</loot>
 </monster>

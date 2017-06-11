@@ -19,7 +19,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="40" poison="80" />
 	</attacks>
-	<defenses armor="25" defense="40">
+	<defenses armor="30" defense="25">
 		<defense name="speed" interval="2000" chance="10" speedchange="340" duration="5000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -37,11 +37,11 @@
 		<immunity earth="1" />
 	</immunities>
 	<loot>
-		<item id="2152" countmax="5" chance="100000" /><!-- platinum coin -->
-		<item id="2457" chance="70000" /><!-- steel helmet -->
-		<item id="5879" chance="60000" /><!-- spider silk -->
-		<item id="7903" chance="50000" /><!-- terra hood -->
-		<item id="2477" chance="50000" /><!-- knight legs -->
-		<item id="2169" chance="90333" /><!-- time ring -->
+		<item id="2152" countmax="5" chance="87390" /> <!-- platinum coin -->
+		<item id="2457" chance="75600" /> <!-- steel helmet -->
+		<item id="5879" chance="51000" /> <!-- spider silk -->
+		<item id="7903" chance="24400" /> <!-- terra hood -->
+		<item id="2477" chance="28000" /> <!-- knight legs -->
+		<item id="2169" chance="90333" /> <!-- time ring -->
 	</loot>
 </monster>
