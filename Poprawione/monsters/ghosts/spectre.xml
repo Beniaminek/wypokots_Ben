@@ -23,8 +23,8 @@
 			<attribute key="areaEffect" value="purplenote" />
 		</attack>
 		<attack name="spectre drown" interval="2000" chance="15" />
-		<attack name="manadrain" interval="2000" chance="10" range="7" min="-100" max="-400" />
-		<attack name="lifedrain" interval="2000" chance="15" range="7" min="-300" max="-550">
+		<attack name="manadrain" interval="2000" chance="15" range="1" min="-100" max="-400" />
+		<attack name="lifedrain" interval="2000" chance="10" range="1" min="-300" max="-550">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
