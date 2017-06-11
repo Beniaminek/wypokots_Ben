@@ -17,15 +17,17 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-	<attack name="vile grandmaster" interval="2000" chance="15"/>
-	<attack name="melee" interval="2000" min="10" max="-260" />
+		<attack name="physical" interval="1000" chance="8" radius="6" target="0" min="-75" max="-125">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+	<attack name="melee" interval="2000" min="0" max="-260" />
 		
-	<attack name="bleedcondition" interval="2000" chance="20" target="1" radius="4" min="-150" max="-225">
+	<attack name="bleedcondition" interval="2000" chance="17" target="1" radius="1" min="-150" max="-225">
 			<attribute key="shootEffect" value="throwingknife" />
 			<attribute key="areaEffect" value="redspark" />
 	</attack>
 	</attacks>
-	<defenses armor="35" defense="50">
+	<defenses armor="40" defense="40">
 		<defense name="healing" interval="4000" chance="15" min="220" max="280">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
@@ -51,28 +53,23 @@
 		<voice sentence="Let's have a fight!" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="171" chance="99410" />	<!-- gold coin -->		
-		<item id="2152" countmax="2" chance="75410" />	<!-- platinum coin -->		
-		<item id="2681" chance="1210" />	<!-- Grapes -->		
-		<item id="2666" countmax="2" chance="1210" />	<!-- Meat -->		
-		<item id="7591" chance="7210" />	<!-- Great Health Potion -->		
-		<item id="2381" chance="1610" />	<!-- Halberd -->
-		<item id="2744" chance="510" />	<!-- Red Rose -->		
-		<item id="12466" chance="7200" />	<!-- Scroll of Heroic Deeds -->
-		<item id="12406" chance="2730" />	<!-- Small Notebook -->
-		<item id="2147" countmax="2" chance="3540" />	<!-- Small Ruby -->
-		<item id="2146" countmax="2" chance="3720" />	<!-- Small Sapphire -->
-		<item id="2121" chance="510" />	<!-- Wedding Ring -->
-		<item id="5911" chance="2100" />	<!-- Red Piece of Cloth -->		
-		<item id="2391" chance="210" />	<!-- war hammer -->		
-		<item id="2487" chance="1000" />	<!-- Crown Armor -->
-		<item id="2392" chance="990" />	<!-- Fire Sword -->
-		<item id="2491" chance="870" />	<!-- Crown Helmet -->
-		<item id="2519" chance="310" />	<!-- Crown Shield -->
-		<item id="2488" chance="1060" />	<!-- Crown Legs -->		
-				
-		<item id="2171" chance="500" />	<!-- Platinum Amulet  -->		
-		
-		
+		<item id="2148" countmax="175" chance="100000" />	<!-- gold coin -->		
+		<item id="2152" countmax="2" chance="74680" />	<!-- platinum coin -->			
+		<item id="2666" countmax="2" chance="9760" />	<!-- Meat -->		
+		<item id="7591" chance="6900" />	<!-- Great Health Potion -->				
+		<item id="12466" chance="7550" />	<!-- Scroll of Heroic Deeds -->
+		<item id="12406" chance="2480" />	<!-- Small Notebook -->
+		<item id="2147" chance="3550" />	<!-- Small Ruby -->
+		<item id="2146" chance="3540" />	<!-- Small Sapphire -->
+		<item id="2121" chance="5120" />	<!-- Wedding Ring -->
+		<item id="5911" chance="1960" />	<!-- Red Piece of Cloth -->		
+		<item id="2391" chance="2040" />	<!-- war hammer -->		
+		<item id="2487" chance="1010" />	<!-- Crown Armor -->
+		<item id="2392" chance="660" />	<!-- Fire Sword -->
+		<item id="2491" chance="760" />	<!-- Crown Helmet -->
+		<item id="2519" chance="300" />	<!-- Crown Shield -->
+		<item id="2488" chance="770" />	<!-- Crown Legs -->			
+		<item id="2171" chance="430" />	<!-- Platinum Amulet  -->		
+		<item id="2114" chance="190" />		<!-- piggy bank -->
 	</loot>
 </monster>

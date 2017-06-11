@@ -17,11 +17,13 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-	<attack name="renegade knight" interval="2000" chance="30"/>
-		<attack name="melee" interval="2000" min="10" max="-175" />
+		<attack name="physical" interval="2000" chance="15" radius="3" target="0" min="0" max="-125">
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
+		<attack name="melee" interval="2000" min="-0" max="-245" />
 	</attacks>
-	<defenses armor="35" defense="50">
-		<defense name="healing" interval="4000" chance="25" min="200" max="250">
+	<defenses armor="38" defense="50">
+		<defense name="healing" interval="4000" chance="20" min="200" max="250">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -33,11 +35,10 @@
 		<element physicalPercent="15" />
 		<element energyPercent="35" />
 	</elements>
-	<immunities>
-		
+	<immunities>	
 		<immunity invisible="1" />
 	</immunities>
-	<voices interval="2000" chance="13">
+	<voices interval="2000" chance="10">
 		<voice sentence="I'll teach you a lesson!" />
 		<voice sentence="Your abilities are no match for mine!" />
 		<voice sentence="Take this!" />
@@ -46,21 +47,20 @@
 		<voice sentence="A challenge at last!" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="99000" />	<!-- gold coin -->		
-		<item id="2152" countmax="2" chance="26000" />
+		<item id="2148" countmax="100" chance="100000" />	<!-- gold coin -->		
+		<item id="2152" countmax="2" chance="25000" /> <!-- platinum coin -->		
 		<item id="7591" chance="7150" />	<!-- Great Health Potion -->		
 		<item id="2666" countmax="2" chance="10000" />	<!-- Meat -->		
-		<item id="2147" chance="4000" />
-		<item id="2487" chance="610" />	<!-- Crown Armor -->
-		<item id="2491" chance="510" />	<!-- Crown Helmet -->
-		<item id="2519" chance="100" />	<!-- Crown Shield -->
-		<item id="2488" chance="770" />	<!-- Crown Legs -->
-		
-		<item id="2392" chance="420" />	<!-- Fire Sword -->
-		<item id="2381" chance="1610" />	<!-- Halberd -->
-
-		<item id="12466" chance="6300" />	<!-- Scroll of Heroic Deeds -->
-		<item id="12406" chance="1600" />	<!-- Small Notebook -->
-
+		<item id="2147" chance="3450" />
+		<item id="2487" chance="600" />	<!-- Crown Armor -->
+		<item id="2491" chance="480" />	<!-- Crown Helmet -->
+		<item id="2519" chance="200" />	<!-- Crown Shield -->
+		<item id="2488" chance="540" />	<!-- Crown Legs -->	
+		<item id="2392" chance="510" />	<!-- Fire Sword -->
+		<item id="2391" chance="1000" />	<!-- War Hammer -->
+		<item id="2377" chance="4720" />  <!-- two handed sword -->
+		<item id="12466" chance="5910" />	<!-- Scroll of Heroic Deeds -->
+		<item id="12406" chance="1560" />	<!-- Small Notebook -->
+		<item id="2114" chance="90" />   <!-- piggy bank -->
 	</loot>
 </monster>
