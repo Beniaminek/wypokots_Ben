@@ -22,19 +22,19 @@
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaeffect" value="carniphila"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-10" max="-94"> 
+		<attack name="lifedrain" interval="2250" chance="23" range="7" min="-10" max="-94"> 
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaeffect" value="carniphila"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-15" max="-62"> 
+		<attack name="lifedrain" interval="2500" chance="25" range="7" min="-15" max="-62"> 
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaeffect" value="carniphila"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-5" max="-38"> 
+		<attack name="lifedrain" interval="2750" chance="28" range="7" min="-5" max="-38"> 
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaeffect" value="carniphila"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="20" range="7" min="-5" max="-20"> 
+		<attack name="lifedrain" interval="3000" chance="30" range="7" min="-5" max="-20"> 
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaeffect" value="carniphila"/>
 		</attack>
