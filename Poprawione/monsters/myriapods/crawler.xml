@@ -17,22 +17,22 @@
 		<flag runonhealth="40"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="45" attack="80" poison="100"/>
-		<attack name="earth" interval="2000" chance="11" range="5" target="1" min ="-80" max="-150">
+		<attack name="melee" interval="2000" skill="45" attack="60" poison="100"/>
+		<attack name="earth" interval="2000" chance="11" range="5" target="1" min="-90" max="-180">
 			<attribute key="shootEffect" value="poison"/> 
 			<attribute key="areaEffect" value="smallplants"/>
 		</attack>
 	</attacks>
 	<defenses armor="21" defense="27">
-		<defense name="speed" interval="2000" chance="25" speedchange="924" duration="5000">
+		<defense name="speed" interval="2000" chance="25" speedchange="824" duration="5000">
 			<attribute key="areaEffect" value="yellowspark"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element deathPercent="5"/>
 		<element holyPercent="-5"/>
-		<element firePercent="-8"/>
-		<element icePercent="-7"/>
+		<element firePercent="-10"/>
+		<element icePercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity earth="1" />
@@ -43,17 +43,16 @@
 		<voice sentence="Sssschrchrsss!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
-		<item id="2148" countmax="90" chance="50000" /><!-- gold coin -->
+		<item id="2148" countmax="190" chance="100000" /><!-- gold coin -->
 		<item id="2152" chance="50000" /><!-- platinum coin -->
-		<item id="15482" chance="18430" /><!-- crawler head plating -->
-		<item id="15486" chance="14640" /><!-- compound eye -->
-		<item id="9970" countmax="2" chance="10040" /><!-- small topaz -->
-		<item id="7590" chance="9300" /><!-- great mana potion -->
-		<item id="7591" chance="6200" /><!-- great health potion -->
-		<item id="2391" chance="2070" /><!-- war hammer -->
-		<item id="8912" chance="710" /><!-- springsprout rod -->
-		<item id="2154" chance="530" /><!-- yellow gem -->
-		<item id="15490" chance="100" /><!-- grasshopper legs -->
+		<item id="15482" chance="18640" /><!-- crawler head plating -->
+		<item id="15486" chance="15240" /><!-- compound eye -->
+		<item id="9970" countmax="2" chance="10360" /><!-- small topaz -->
+		<item id="7590" chance="9400" /><!-- great mana potion -->
+		<item id="7591" chance="6100" /><!-- great health potion -->
+		<item id="2391" chance="2000" /><!-- war hammer -->
+		<item id="8912" chance="670" /><!-- springsprout rod -->
+		<item id="2154" chance="540" /><!-- yellow gem -->
+		<item id="15490" chance="110" /><!-- grasshopper legs -->
 	</loot>
 </monster>

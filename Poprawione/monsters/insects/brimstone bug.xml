@@ -17,17 +17,17 @@
                 <flag runonhealth="0"/>
         </flags>
         <attacks>
-    		<attack name="melee" interval="2000" skill="116" attack="50" poison="200" />
-                <attack name="brimstone bug paralyze" interval="2000" chance="19" range="7"/>
-                <attack name="earth" interval="2000" chance="16" radius="7" min="-120" max="-290">
+    		<attack name="melee" interval="2000" skill="50" attack="50" poison="200" />
+                <attack name="brimstone bug paralyze" interval="2000" chance="12" range="7"/>
+                <attack name="earth" interval="2000" chance="16" radius="7" min="-180" max="-270">
                         <attribute key="areaEffect" value="bigplants"/>
                 </attack>
                 <attack name="manadrain" interval="2000" chance="16" length="8" spread="0" min="-60" max="-200">
                         <attribute key="areaEffect" value="greenspark"/>
                 </attack>
-                <attack name="brimstone bug wave" interval="2000" chance="16" min="-60" max="-120"/>
+                <attack name="brimstone bug wave" interval="2000" chance="10" min="-60" max="-120"/>
         </attacks>
-        <defenses armor="26" defense="33">
+        <defenses armor="35" defense="30">
 		<defense name="healing" interval="2000" chance="11" min="50" max="100">
 			<attribute key="areaEffect" value="blackspark"/>
 		</defense>
@@ -49,18 +49,17 @@
 		<voice sentence="Chrrr!" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
-		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
+		<item id="2148" countmax="199" chance="100000" /><!-- gold coin -->
 		<item id="10557" chance="50000" /><!-- poisonous slime -->
 		<item id="11222" chance="20000" /><!-- lump of earth -->
-		<item id="11232" chance="14970" /><!-- sulphurous stone -->
-		<item id="12659" chance="10000" /><!-- brimstone shell -->
-		<item id="7589" chance="9025" /><!-- strong mana potion -->
-		<item id="7588" chance="9003" /><!-- strong health potion -->
+		<item id="11232" chance="15000" /><!-- sulphurous stone -->
+		<item id="12659" chance="9850" /><!-- brimstone shell -->
+		<item id="7589" chance="8725" /><!-- strong mana potion -->
+		<item id="7588" chance="8903" /><!-- strong health potion -->
 		<item id="12658" chance="5710" /><!-- brimstone fangs -->
-		<item id="2149" countmax="4" chance="2702" /><!-- small emerald -->
-		<item id="5904" chance="1639" /><!-- magic sulphur -->
-		<item id="2165" chance="892" /><!-- stealth ring -->
+		<item id="2149" countmax="4" chance="2432" /><!-- small emerald -->
+		<item id="5904" chance="1739" /><!-- magic sulphur -->
+		<item id="2165" chance="930" /><!-- stealth ring -->
 		<item id="2171" chance="110" /><!-- platinum amulet -->
 	</loot>
 </monster>
