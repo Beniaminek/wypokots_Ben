@@ -20,6 +20,7 @@
 		<attack name="melee" interval="2000" skill="25" attack="25" poison="95" />
 		<attack name="physical" interval="2000" chance="20" range="7" min="0" max="-220">
 			<attribute key="shootEffect" value="arrow" />
+		</attack>
 		<attack name="lifedrain" interval="1000" chance="10" range="1" min="-80" max="-120">
 			<attribute key="areaEffect" value="redspark" />
 		</attack>
