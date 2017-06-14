@@ -1,5 +1,5 @@
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	local test = getGlobalStorageValue(10)
+	local test = Game.getStorageValue(GlobalStorage.FlamingOrchid)
 	if (test == 5) then
 		if item.itemid == 1255 then
 			player:teleportTo(toPosition, true)
