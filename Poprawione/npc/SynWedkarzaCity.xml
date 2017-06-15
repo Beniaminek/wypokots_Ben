@@ -3,7 +3,7 @@
 	<health now="100" max="100" />
 	<look type="132" head="19" body="10" legs="38" feet="95" addons="0" />
 	<parameters>
-		<parameter key="message_greet" value="Moj stary jest fanatykiem wedkarstwa. Pol mieszkania zajebane wedkami najgorsze. Ostatnio kaze dorabiac mi plywajac lodka, moge zabrac cie w poblize fortecy elfow." />
+		<parameter key="message_greet" value="Moj stary jest fanatykiem wedkarstwa. Pol mieszkania zajebane wedkami najgorsze. Ostatnio kaze dorabiac mi plywajac lodka, dlatego moge zabrac cie w poblize fortecy elfow." />
 		<parameter key="message_farewell" value="No elo!" />
 		<parameter key="message_walkaway" value="Nara." />
 	</parameters>
