@@ -18,15 +18,15 @@
 		<flag runonhealth="250" />
 	</flags>
 <attacks>
-	<attack name="melee" interval="2000" min="0" max="-252" />
-	<attack name="the flaming orchid fire" interval="2000" chance="15" range="3" target="1" min="-100" max="-300"/> 
-	<attack name="death" interval="2000" chance="10" range="6" target="1" radius="6" min="-100" max="-500">
+	<attack name="melee" interval="2000" min="0" max="-300" />
+	<attack name="the flaming orchid fire" interval="2000" chance="17" range="3" target="1" min="-100" max="-300"/> 
+	<attack name="death" interval="2000" chance="15" range="6" target="1" radius="6" min="-100" max="-500">
 		<attribute key="areaEffect" value="mortarea" />
 	</attack>
-	<attack name="lifedrain" interval="4000" chance="15" length="8" spread="0" min="-100" max="-350">
+	<attack name="lifedrain" interval="4000" chance="17" length="8" spread="0" min="-100" max="-350">
 		<attribute key="areaEffect" value="yellowspark" />
 	</attack>
-	<attack name="fire" interval="2000" chance="11" range="6" target="1" radius="4" min="-100" max="-300">
+	<attack name="fire" interval="2000" chance="13" range="6" target="1" radius="4" min="-100" max="-300">
 		<attribute key="shootEffect" value="fire" />
 		<attribute key="areaEffect" value="fire" /> 
 	</attack> 
