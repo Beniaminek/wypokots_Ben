@@ -1,0 +1,81 @@
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Flaming Orchid" nameDescription="The Flaming Orchid" race="blood" experience="8500" speed="220" manacost="0">
+	<health now="4000" max="4000" />
+	<look type="150" head="114" body="94" legs="78" feet="79" addons="3" corpse="24643" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="250" />
+	</flags>
+<attacks>
+	<attack name="melee" interval="2000" min="0" max="-252" />
+	<attack name="the flaming orchid fire" interval="2000" chance="15" range="3" target="1" min="-100" max="-300"/> 
+	<attack name="death" interval="2000" chance="10" range="6" target="1" radius="6" min="-100" max="-500">
+		<attribute key="areaEffect" value="mortarea" />
+	</attack>
+	<attack name="lifedrain" interval="4000" chance="15" length="8" spread="0" min="-100" max="-350">
+		<attribute key="areaEffect" value="yellowspark" />
+	</attack>
+	<attack name="fire" interval="2000" chance="11" range="6" target="1" radius="4" min="-100" max="-300">
+		<attribute key="shootEffect" value="fire" />
+		<attribute key="areaEffect" value="fire" /> 
+	</attack> 
+</attacks>
+<defenses armor="49" defense="49">
+	<defense name="the flaming orchid paralyze" interval="3000" chance="12" range="3" target="0" min="-100" max="-300"/> 
+	<defense name="healing" interval="2000" chance="15" min="100" max="280">
+		<attribute key="areaEffect" value="blueshimmer" />
+	</defense>
+	<defense name="invisible" interval="2000" chance="20" duration="8000">
+		<attribute key="areaEffect" value="teleport" />
+	</defense> 
+</defenses>
+<elements>
+	<element physicalPercent="1" />
+	<element holyPercent="-1" />
+	<element icePercent="-1" />
+	<element energyPercent="-1" />
+	<element deathPercent="1" /> 
+	<wlwmwnt firePercent="1" />
+</elements>
+<immunities>
+<immunity paralyze="1" />
+<immunity invisible="1" />
+</immunities>
+<voices interval="2000" chance="7">
+<voice sentence="I will end your torment. Do not run, little mortal." />
+<voice sentence="*SNIFF* *SNIFF* BLOOD! I CAN SMELL YOU, MORTAL!" yell="1" />
+</voices>
+<loot>
+<item id="2148" countmax="246" chance="100000" /><!-- gold coin --> 
+<item id="2152" countmax="10" chance="100000" /> <!-- platinum coin --> 
+<item id="24630" chance="100000" /> <!-- Golden Lotus Brooch --> 
+<item id="24631" chance="100000" /> <!-- Peacock Feather Fan --> 
+<item id="8472" countmax="5" chance="14300" /> <!-- Great Spirit Potion -->
+<item id="7368" countmax="15" chance="44000" /> <!-- Assassin Star -->
+<item id="6500" chance="33000" /> <!-- Demonic Essence -->
+<item id="9971" countmax="3" chance="3300" /> <!-- Gold Ingot --> 
+<item id="2150" countmax="3" chance="22200" /> <!-- small amethyst -->
+<item id="8473" countmax="5" chance="24180" /> <!-- Ultimate Health Potion --> 
+<item id="2155" chance="6590" /> <!-- green gem -->
+<item id="7894" chance="2200" /> <!-- Magma Legs -->
+<item id="2186" chance="14911" /> <!-- Moonlight rod -->
+<item id="2185" chance="5490" /> <!-- Necrotic rod -->
+<item id="24637" chance="1100" /> <!-- Oriental Shoes --> 
+<item id="5944" chance="23000" /> <!-- Soul Orb -->
+<item id="2153" chance="3300" /> <!-- violet gem --> 
+<item id="6558" countmax="5" chance="36260" /> <!-- concentrated demonic blood --> 
+<item id="8910" chance="5470" />					<!-- Underworld Rod  -->
+<item id="7404" chance="3300" />					<!-- Assassin Dagger-->	
+</loot>
+</monster>
