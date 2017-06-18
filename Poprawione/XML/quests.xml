@@ -26,46 +26,44 @@
 		<mission name="Starcie z bossem Ribstride" storageid="10018" startvalue="1" endvalue="2" description="Podobno wejscia do jego kryjowki strzega pustynne Wyrmy, jednak zdaje sie, ze to tylko pogloski." />
 		<mission name="Giant Spiders" storageid="220" startvalue="0" endvalue="500" description="Liczba zabitych giant spiderow: |STATE|/500." />
 		<mission name="Starcie z bossem The Old Widow" storageid="10020" startvalue="1" endvalue="2" description="Na poludnie od Knurowa zaleglo sie sporo pajakow, byc moze tam znajduje sie najgrozniejszy z nich." />
-		<mission name="Quaras" storageid="229" startvalue="0" endvalue="500" description="Liczba zabitych Quar: |STATE|/500." />
-		<mission name="Starcie z bossem Thul" storageid="10029" startvalue="1" endvalue="2" description="Na wyspe, gdzie przesiaduje Thul trzeba dostac sie przeplywajac statkiem." />
-		<mission name="Quaras" storageid="248" startvalue="0" endvalue="500" description="Liczba zabitych Quar: |STATE|/500." />
-		<mission name="Starcie z bossem Thul" storageid="10048" startvalue="1" endvalue="2" description="Na wyspe, gdzie przesiaduje Thul trzeba dostac sie przeplywajac statkiem." />
-		<mission name="Werewolves" storageid="252" startvalue="0" endvalue="300" description="Liczba zabitych werewolfow: |STATE|/300." />
-		<mission name="Starcie z bossem Hemming" storageid="10052" startvalue="1" endvalue="2" description="W jaskiniach za miastem w ktorym strasza nocni przesladowcy przesiaduja wilkolaki, zapewne ukrywaja tam Hemminga." />
-		<mission name="Nightmares" storageid="247" startvalue="0" endvalue="400" description="Liczba zabitych nightmarow: |STATE|/400." />
-		<mission name="Starcie z bossem Tromentor" storageid="10047" startvalue="1" endvalue="2" description="Komnata Tromentora znajduje sie w miejscu, gdzie bohaterowie walcza z koszmarami." />
-		<mission name="Hellspawns" storageid="241" startvalue="0" endvalue="400" description="Liczba zabitych hellspawnow: |STATE|/400." />
-		<mission name="Starcie z bossem Flameborn" storageid="10041" startvalue="1" endvalue="2" description="Pomiedzy wodospadami w dzungli znajduje sie zejscie do zapomnianych ruin. Zaleglo sie tam wiele Hellspawnow, Flameborn pewnie sie tam ukrywa." />
-		<mission name="High Class Lizards" storageid="242" startvalue="0" endvalue="400" description="Liczba zabitych lizardow: |STATE|/400." />
-		<mission name="Starcie z bossem Fazzrah" storageid="10042" startvalue="1" endvalue="2" description="Komnata przywodcy jaszczuroludzi - Fazzraha znajduje sie w ich wiosce na stepie." />
-		<mission name="Stampor" storageid="230" startvalue="0" endvalue="200" description="Liczba zabitych stamporow: |STATE|/200." />
-		<mission name="Starcie z bossem Tromphonyte" storageid="10030" startvalue="1" endvalue="2" description="Tromphonyte ukrywa sie w jaskiniach zasiedlonych przez Stampory." />
-		<mission name="Brimstone Bug" storageid="234" startvalue="0" endvalue="300" description="Liczba zabitych brimstone bugow: |STATE|/300." />
-		<mission name="Starcie z bossem Sulphur Scuttler" storageid="10034" startvalue="1" endvalue="2" description="Pod terenem skazonym kwasem radioaktywne Brimstone Bugi czuja sie doskonale, Sulphur Scuttler musi sie tam ukrywac." />
+		<mission name="Quaras" storageid="246" startvalue="0" endvalue="500" description="Liczba zabitych Quar: |STATE|/500." />
+		<mission name="Starcie z bossem Thul" storageid="10046" startvalue="1" endvalue="2" description="Na wyspe, gdzie przesiaduje Thul trzeba dostac sie przeplywajac statkiem." />
+		<mission name="Werewolves" storageid="250" startvalue="0" endvalue="300" description="Liczba zabitych werewolfow: |STATE|/300." />
+		<mission name="Starcie z bossem Hemming" storageid="10050" startvalue="1" endvalue="2" description="W jaskiniach za miastem w ktorym strasza nocni przesladowcy przesiaduja wilkolaki, zapewne ukrywaja tam Hemminga." />
+		<mission name="Nightmares" storageid="245" startvalue="0" endvalue="400" description="Liczba zabitych nightmarow: |STATE|/400." />
+		<mission name="Starcie z bossem Tromentor" storageid="10045" startvalue="1" endvalue="2" description="Komnata Tromentora znajduje sie w miejscu, gdzie bohaterowie walcza z koszmarami." />
+		<mission name="Hellspawns" storageid="240" startvalue="0" endvalue="400" description="Liczba zabitych hellspawnow: |STATE|/400." />
+		<mission name="Starcie z bossem Flameborn" storageid="10040" startvalue="1" endvalue="2" description="Pomiedzy wodospadami w dzungli znajduje sie zejscie do zapomnianych ruin. Zaleglo sie tam wiele Hellspawnow, Flameborn pewnie sie tam ukrywa." />
+		<mission name="High Class Lizards" storageid="241" startvalue="0" endvalue="400" description="Liczba zabitych lizardow: |STATE|/400." />
+		<mission name="Starcie z bossem Fazzrah" storageid="10041" startvalue="1" endvalue="2" description="Komnata przywodcy jaszczuroludzi - Fazzraha znajduje sie w ich wiosce na stepie." />
+		<mission name="Stampor" storageid="229" startvalue="0" endvalue="200" description="Liczba zabitych stamporow: |STATE|/200." />
+		<mission name="Starcie z bossem Tromphonyte" storageid="10029" startvalue="1" endvalue="2" description="Tromphonyte ukrywa sie w jaskiniach zasiedlonych przez Stampory." />
+		<mission name="Brimstone Bug" storageid="233" startvalue="0" endvalue="300" description="Liczba zabitych brimstone bugow: |STATE|/300." />
+		<mission name="Starcie z bossem Sulphur Scuttler" storageid="10033" startvalue="1" endvalue="2" description="Pod terenem skazonym kwasem radioaktywne Brimstone Bugi czuja sie doskonale, Sulphur Scuttler musi sie tam ukrywac." />
 		<mission name="Mutated Bats" storageid="223" startvalue="0" endvalue="350" description="Liczba zabitych mutated batow: |STATE|/350." />
 		<mission name="Starcie z bossem Bruise Payne" storageid="10023-" startvalue="1" endvalue="2" description="Skazone gory staly sie legowiskiem zmutowanych nietoperzy oraz szczurow, Bruise Payne ukrywa sie w skalach." />
-		<mission name="Hydra" storageid="243" startvalue="0" endvalue="400" description="Liczba zabitych hydr: |STATE|/400." />
-		<mission name="Starcie z bossem The Many" storageid="10043" startvalue="1" endvalue="2" description="Na poludniu bagien w dzungli zamieszkalo kilka hydr, The Many przebywa tam najczesciej." />
-		<mission name="Sea Serpent" storageid="249" startvalue="0" endvalue="500" description="Liczba zabitych sea serpentow: |STATE|/500." />
-		<mission name="Starcie z bossem Leviathan" storageid="10049" startvalue="1" endvalue="2" description="Dno wielkiego jeziora zasiedlone jest przez Morskie Weze, w jego glebinach mieszka legendarny Leviathan." />
-		<mission name="Behemoth" storageid="233" startvalue="0" endvalue="300" description="Liczba zabitych behemotow: |STATE|/300." />
-		<mission name="Starcie z bossem Stonecracker" storageid="10033" startvalue="1" endvalue="2" description="Grota olbrzymich Behemothow znajduje sie pod bagnami na zachodzie dzungli. Jesli nie brak ci odwagi mozesz poszukac tam Stonecrackera." />
-		<mission name="Serpent Spawns" storageid="250" startvalue="0" endvalue="400" description="Liczba zabitych serpent spawnow: |STATE|/400." />
-		<mission name="Starcie z bossem The Noxious Spawn" storageid="10050" startvalue="1" endvalue="2" description="Na zachodzie dzunglii jedne ze wzgorzy zamieszkale sa przez Serpent Spawny, The Noxious Spawn mogl sie tam ukryc." />
-		<mission name="Medusa" storageid="245" startvalue="0" endvalue="300" description="Liczba zabitych meduz: |STATE|/300." />
-		<mission name="Starcie z bossem Gorgo" storageid="10045" startvalue="1" endvalue="2" description="Grota przywodczyni Meduz - Gorgo znajduje sie w podziemnych ruinach, ktorch strzega jej podopieczne." />
-		<mission name="Hellhounds" storageid="240" startvalue="0" endvalue="250" description="Liczba zabitych hellhoundow: |STATE|/250." />
-		<mission name="Starcie z bossem Kerberos" storageid="10040" startvalue="1" endvalue="2" description="Dostep do piekielnego Kerberosa strzezony jest przez Demony oraz Hellhoundy, jednak to tylko legendy..." />
-		<mission name="Ghastly Dragons" storageid="239" startvalue="0" endvalue="300" description="Liczba ghastly dragonow: |STATE|/300." />
-		<mission name="Starcie z bossem Ethershreck" storageid="10039" startvalue="1" endvalue="2" description="Legowisko upiornych smokow znajduje sie w poziemiach pomiedzy pustynia a dzungla, Ethershreck takze sie tam zagniezdzil." />
-		<mission name="Drakens" storageid="237" startvalue="0" endvalue="500" description="Liczba zabitych drakenow: |STATE|/500." />
-		<mission name="Starcie z bossem Paiz the Pauperizer" storageid="10037" startvalue="1" endvalue="2" description="Jesli uda ci sie przedostac przez wieze Drakenow, teleport poprowadzi cie do siedziby ich wladcy - Paiz the Pauperizera." />
-		<mission name="Destroyers" storageid="236" startvalue="0" endvalue="400" description="Liczba zabitych destroyerow: |STATE|/400." />
-		<mission name="Starcie z bossem Bretzecutioner" storageid="10036" startvalue="1" endvalue="2" description="Sporo niszczycieli znajduje sie w podziemiach na wschodzie pustyni, mozesz rozejrzec sie tam w poszukiwaniu Bretzecutionera." />
-		<mission name="Undead Dragons" storageid="251" startvalue="0" endvalue="300" description="Liczba zabitych undead dragonow: |STATE|/300." />
-		<mission name="Starcie z bossem Zanekeph" storageid="10051" startvalue="1" endvalue="2" description="W podziemnych ruinach, do ktorych dojscia strzega Meduzy oraz Serpent Spawny znajduja sie nieumarle smoki broniace swojego przywodcy - Zanekepha." />
-		<mission name="Demons" storageid="235" startvalue="0" endvalue="2000" description="Liczba zabitych demonow: |STATE|/2000." />
-		<mission name="Starcie z bossem Demonica" storageid="10035" startvalue="1" endvalue="2" description="Teleport znajduje sie gdzies na mapie, znajdz go!" />
+		<mission name="Hydra" storageid="242" startvalue="0" endvalue="400" description="Liczba zabitych hydr: |STATE|/400." />
+		<mission name="Starcie z bossem The Many" storageid="10042" startvalue="1" endvalue="2" description="Na poludniu bagien w dzungli zamieszkalo kilka hydr, The Many przebywa tam najczesciej." />
+		<mission name="Sea Serpent" storageid="247" startvalue="0" endvalue="500" description="Liczba zabitych sea serpentow: |STATE|/500." />
+		<mission name="Starcie z bossem Leviathan" storageid="10047" startvalue="1" endvalue="2" description="Dno wielkiego jeziora zasiedlone jest przez Morskie Weze, w jego glebinach mieszka legendarny Leviathan." />
+		<mission name="Behemoth" storageid="232" startvalue="0" endvalue="300" description="Liczba zabitych behemotow: |STATE|/300." />
+		<mission name="Starcie z bossem Stonecracker" storageid="10032" startvalue="1" endvalue="2" description="Grota olbrzymich Behemothow znajduje sie pod bagnami na zachodzie dzungli. Jesli nie brak ci odwagi mozesz poszukac tam Stonecrackera." />
+		<mission name="Serpent Spawns" storageid="248" startvalue="0" endvalue="400" description="Liczba zabitych serpent spawnow: |STATE|/400." />
+		<mission name="Starcie z bossem The Noxious Spawn" storageid="10048" startvalue="1" endvalue="2" description="Na zachodzie dzunglii jedne ze wzgorzy zamieszkale sa przez Serpent Spawny, The Noxious Spawn mogl sie tam ukryc." />
+		<mission name="Medusa" storageid="244" startvalue="0" endvalue="300" description="Liczba zabitych meduz: |STATE|/300." />
+		<mission name="Starcie z bossem Gorgo" storageid="10044" startvalue="1" endvalue="2" description="Grota przywodczyni Meduz - Gorgo znajduje sie w podziemnych ruinach, ktorch strzega jej podopieczne." />
+		<mission name="Hellhounds" storageid="239" startvalue="0" endvalue="250" description="Liczba zabitych hellhoundow: |STATE|/250." />
+		<mission name="Starcie z bossem Kerberos" storageid="10039" startvalue="1" endvalue="2" description="Dostep do piekielnego Kerberosa strzezony jest przez Demony oraz Hellhoundy, jednak to tylko legendy..." />
+		<mission name="Ghastly Dragons" storageid="238" startvalue="0" endvalue="300" description="Liczba ghastly dragonow: |STATE|/300." />
+		<mission name="Starcie z bossem Ethershreck" storageid="10038" startvalue="1" endvalue="2" description="Legowisko upiornych smokow znajduje sie w poziemiach pomiedzy pustynia a dzungla, Ethershreck takze sie tam zagniezdzil." />
+		<mission name="Drakens" storageid="236" startvalue="0" endvalue="500" description="Liczba zabitych drakenow: |STATE|/500." />
+		<mission name="Starcie z bossem Paiz the Pauperizer" storageid="10036" startvalue="1" endvalue="2" description="Jesli uda ci sie przedostac przez wieze Drakenow, teleport poprowadzi cie do siedziby ich wladcy - Paiz the Pauperizera." />
+		<mission name="Destroyers" storageid="235" startvalue="0" endvalue="400" description="Liczba zabitych destroyerow: |STATE|/400." />
+		<mission name="Starcie z bossem Bretzecutioner" storageid="10035" startvalue="1" endvalue="2" description="Sporo niszczycieli znajduje sie w podziemiach na wschodzie pustyni, mozesz rozejrzec sie tam w poszukiwaniu Bretzecutionera." />
+		<mission name="Undead Dragons" storageid="249" startvalue="0" endvalue="300" description="Liczba zabitych undead dragonow: |STATE|/300." />
+		<mission name="Starcie z bossem Zanekeph" storageid="10049" startvalue="1" endvalue="2" description="W podziemnych ruinach, do ktorych dojscia strzega Meduzy oraz Serpent Spawny znajduja sie nieumarle smoki broniace swojego przywodcy - Zanekepha." />
+		<mission name="Demons" storageid="234" startvalue="0" endvalue="2000" description="Liczba zabitych demonow: |STATE|/2000." />
+		<mission name="Starcie z bossem Demonica" storageid="10034" startvalue="1" endvalue="2" description="Teleport znajduje sie gdzies na mapie, znajdz go!" />
 		<mission name="Orcs" storageid="210" startvalue="0" endvalue="300" description="Liczba zabitych orkow: |STATE|/300." />
 		<mission name="Starcie z bossem Bibby Bloodbath" storageid="10010" startvalue="1" endvalue="2" description="." />
 		<mission name="Weak undeads" storageid="216" startvalue="0" endvalue="300" description="Liczba zabitych nieumarlakow: |STATE|/300." />
@@ -90,22 +88,22 @@
 		<mission name="Starcie z bossem Tigre" storageid="10025" startvalue="1" endvalue="2" description="." />
 		<mission name="Pirates" storageid="228" startvalue="0" endvalue="500" description="Liczba zabitych piratow: |STATE|/500." />
 		<mission name="Starcie z bossem piratow" storageid="10028" startvalue="1" endvalue="2" description="." />
-		<mission name="Frost Dragon" storageid="238" startvalue="0" endvalue="400" description="Liczba zabitych frost dragon: |STATE|/400." />
-		<mission name="Starcie z bossem Frosty" storageid="10038" startvalue="1" endvalue="2" description="." />
-		<mission name="Wyvern" storageid="232" startvalue="0" endvalue="300" description="Liczba zabitych wyvern: |STATE|/300." />
-		<mission name="Starcie z bossem Reptilia" storageid="10032" startvalue="1" endvalue="2" description="." />
+		<mission name="Frost Dragon" storageid="237" startvalue="0" endvalue="400" description="Liczba zabitych frost dragon: |STATE|/400." />
+		<mission name="Starcie z bossem Frosty" storageid="10037" startvalue="1" endvalue="2" description="." />
+		<mission name="Wyvern" storageid="231" startvalue="0" endvalue="300" description="Liczba zabitych wyvern: |STATE|/300." />
+		<mission name="Starcie z bossem Reptilia" storageid="10031" startvalue="1" endvalue="2" description="." />
 		<mission name="Stone Golem" storageid="212" startvalue="0" endvalue="400" description="Liczba zabitych stone golem: |STATE|/400." />
 		<mission name="Starcie z bossem Grorlam" storageid="10012" startvalue="1" endvalue="2" description="." />
 		<mission name="Apes" storageid="201" startvalue="0" endvalue="300" description="Liczba zabitych malp: |STATE|/300." />
 		<mission name="Starcie z bossem Gorila" storageid="10001" startvalue="1" endvalue="2" description="." />
 		<mission name="Gargoyle" storageid="205" startvalue="0" endvalue="200" description="Liczba zabitych gargoyle: |STATE|/200." />
 		<mission name="Starcie z bossem Stoner" storageid="10005" startvalue="1" endvalue="2" description="." />
-		<mission name="Killer Caiman" storageid="244" startvalue="0" endvalue="300" description="Liczba zabitych killer caiman: |STATE|/300." />
-		<mission name="Starcie z bossem Killa" storageid="10044" startvalue="1" endvalue="2" description="." />
-		<mission name="Wailing Widow" storageid="231" startvalue="0" endvalue="400" description="Liczba zabitych wailing widow: |STATE|/400." />
-		<mission name="Starcie z bossem Fiery Widow" storageid="10031" startvalue="1" endvalue="2" description="." />
-		<mission name="Lancer Beetle" storageid="231" startvalue="0" endvalue="300" description="Liczba zabitych lancer beetle: |STATE|/300." />
-		<mission name="Starcie z bossem Deadly Beetle" storageid="10031" startvalue="1" endvalue="2" description="." />
+		<mission name="Killer Caiman" storageid="243" startvalue="0" endvalue="300" description="Liczba zabitych killer caiman: |STATE|/300." />
+		<mission name="Starcie z bossem Killa" storageid="10043" startvalue="1" endvalue="2" description="." />
+		<mission name="Wailing Widow" storageid="230" startvalue="0" endvalue="400" description="Liczba zabitych wailing widow: |STATE|/400." />
+		<mission name="Starcie z bossem Fiery Widow" storageid="10030" startvalue="1" endvalue="2" description="." />
+		<mission name="Lancer Beetle" storageid="222" startvalue="0" endvalue="300" description="Liczba zabitych lancer beetle: |STATE|/300." />
+		<mission name="Starcie z bossem Deadly Beetle" storageid="10022" startvalue="1" endvalue="2" description="." />
 	</quest>
 	<quest name="Arena" startstorageid="300" startstoragevalue="1">
 		<mission name="Pierwsza arena" storageid="301" startvalue="1" endvalue="2" description="Zabij:\nFrostfur\nBloodpaw\nBovinus\nAchad\nColerian the Barbarian\nThe Hairy One\nAxeitus Headbanger\nRocky\nCursed Gladiator\nOrcus the Cruel" />

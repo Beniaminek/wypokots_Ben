@@ -76,14 +76,14 @@ local function creatureSayCallback(cid, type, msg)
 		if not (player:getStorageValue(200) >= 0) then --first time talk
 			player:setStorageValue(200, 0)
 		end
-		if getPlayerLevel(cid) <= 50 then
+		if getPlayerLevel(cid) <= 40 then
 			mintaskid = 1
 			maxtaskid = 16
-		elseif getPlayerLevel(cid) <= 100 and getPlayerLevel(cid) > 50 then
+		elseif getPlayerLevel(cid) <= 80 and getPlayerLevel(cid) > 40 then
 			mintaskid = 17
-			maxtaskid = 32
+			maxtaskid = 31
 		else 
-			mintaskid = 33
+			mintaskid = 32
 			maxtaskid = 100
 		end
 		local modal = ModalWindow (200, "Taski", "Wybierz interesujace cie zadanie: ")

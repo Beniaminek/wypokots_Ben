@@ -29,31 +29,29 @@ config = {
     [26] = {name = "Necromancers", killsRequired  = 1500, creatures = {"necromancer", "blood pirest", "blood hand", "priestess"}, exp = 543750, money = 10000, tibiaCoins = 6}, --"Necropharus"
     [27] = {name = "Ogres", killsRequired  = 400, creatures = {"ogre brute", "ogre savage", "ogre shaman"}, exp = 261360, money = 0, tibiaCoins = 3}, --"Brutus"
     [28] = {name = "Pirates", killsRequired  = 500, creatures = {"pirate skeleton", "pirate marauder", "pirate cutthroat", "pirate buccaneer", "pirate corsair"}, exp = 95000, money = 0, tibiaCoins = 3},
-    [29] = {name = "Quaras", killsRequired  = 500, creatures = {"quara constrictor", "quara constrictor scourt", "quara hydromancer", "quara hydromancer scout", "quara mantassin", "quara mantassin scout", "quara pincher", "quara pincher scout", "quara predator", "quara predator scout"}, exp = 337500, money = 10000, tibiaCoins = 3}, --"Thul"
-    [30] = {name = "Stampors", killsRequired  = 200, creatures = {"stampor"}, exp = 117000, money = 10000, tibiaCoins = 2}, --"Tromphonyte"
-    [31] = {name = "Wailing Widows", killsRequired  = 400, creatures = {"wailing widow"}, exp = 157500, money = 0, tibiaCoins = 2}, --"Fiery Widow"
-    [32] = {name = "Wyverns", killsRequired  = 300, creatures = {"wyvern"}, exp = 96560, money = 0, tibiaCoins = 2}, --"Reptilia"
+    [29] = {name = "Stampors", killsRequired  = 200, creatures = {"stampor"}, exp = 117000, money = 10000, tibiaCoins = 2}, --"Tromphonyte"
+    [30] = {name = "Wailing Widows", killsRequired  = 400, creatures = {"wailing widow"}, exp = 157500, money = 0, tibiaCoins = 2}, --"Fiery Widow"
+    [31] = {name = "Wyverns", killsRequired  = 300, creatures = {"wyvern"}, exp = 96560, money = 0, tibiaCoins = 2}, --"Reptilia"
  --   to level 100
-    [33] = {name = "Behemoths", killsRequired  = 300, creatures = {"behemoth"}, exp = 787500, money = 15000, tibiaCoins = 4}, --"Stonecracker"
-    [34] = {name = "Brimstone Bug", killsRequired  = 300, creatures = {"brimstone bug"}, exp = 236250, money = 10000, tibiaCoins = 2}, --"Sulphur Scuttler"
-    [35] = {name = "Demons", killsRequired  = 2000, creatures = {"demon"}, exp = 7500000, money = 30000, tibiaCoins = 30}, --"Demonica"
-    [36] = {name = "Destroyers", killsRequired  = 400, creatures = {"destroyer"}, exp = 1125000, money = 20000, tibiaCoins = 3}, --"Bretzecutioner"
-    [37] = {name = "Drakens", killsRequired  = 500, creatures = {"draken abomination", "draken elite", "draken spellweaver", "draken warmaster"}, exp = 1078125, money = 5000, tibiaCoins = 3}, --"Paiz the Pauperizer"
-    [38] = {name = "Frost Dragons", killsRequired  = 400, creatures = {"frost dragon", "frost dragon hatchling"}, exp = 540000, money = 0, tibiaCoins = 4}, --"Frosty"
-    [39] = {name = "Ghastly Dragons", killsRequired  = 300, creatures = {"ghastly dragon"}, exp = 1207500, money = 15000, tibiaCoins = 4}, --"Ethershreck"
-    [40] = {name = "Hellhound", killsRequired  = 250, creatures = {"hellhound"}, exp = 1530000, money = 15000, tibiaCoins = 4}, --"Kerberos"
-    [41] = {name = "Hellspawns", killsRequired  = 400, creatures = {"hellspawn"}, exp = 956250, money = 10000, tibiaCoins = 3}, --"Flameborn"
-    [42] = {name = "High Class Lizards", killsRequired  = 400, creatures = {"lizard legionnaire", "lizard dragon priest", "lizard high guard", "lizard zaogun", "eternal guardian", "lizard chosen"}, exp = 700000, money = 10000, tibiaCoins = 3}, --"Fazzrah"
-    [43] = {name = "Hydras", killsRequired  = 400, creatures = {"hydra"}, exp = 630000, money = 15000, tibiaCoins = 4}, --"The Many"
-    [44] = {name = "Killer Caimans", killsRequired  = 300, creatures = {"killer caiman"}, exp = 236250, money = 0, tibiaCoins = 2}, --"Killa"
-    [45] = {name = "Medusa", killsRequired  = 300, creatures = {"medusa"}, exp = 1063125, money = 15000, tibiaCoins = 4}, --"Gorgo"
-    [46] = {name = "Necromancers", killsRequired  = 1500, creatures = {"necromancer", "blood pirest", "blood hand", "priestess"}, exp = 543750, money = 10000, tibiaCoins = 6}, --"Necropharus"
-    [47] = {name = "Nightmares", killsRequired  = 400, creatures = {"nightmare", "nightmare scion"}, exp = 645000, money = 10000, tibiaCoins = 3}, --"Tormentor"
-    [48] = {name = "Quaras", killsRequired  = 500, creatures = {"quara constrictor", "quara constrictor scourt", "quara hydromancer", "quara hydromancer scout", "quara mantassin", "quara mantassin scout", "quara pincher", "quara pincher scout", "quara predator", "quara predator scout"}, exp = 337500, money = 10000, tibiaCoins = 3}, --"Thul"
-    [49] = {name = "Sea Serpents", killsRequired  = 500, creatures = {"sea serpent", "young sea serpent"}, exp = 810000, money = 15000, tibiaCoins = 4}, --"Leviathan"
-    [50] = {name = "Serpent Spawns", killsRequired  = 400, creatures = {"serpent spawn"}, exp = 1006500, money = 15000, tibiaCoins = 4}, --"The Noxious Spawn"
-    [51] = {name = "Undead Dragons", killsRequired  = 300, creatures = {"undead dragon"}, exp = 2008800, money = 5000, tibiaCoins = 4}, --"Zanakeph"
-    [52] = {name = "Werewolves", killsRequired  = 300, creatures = {"werewolf"}, exp = 498750, money = 10000, tibiaCoins = 3}, --"Hemming"
+    [32] = {name = "Behemoths", killsRequired  = 300, creatures = {"behemoth"}, exp = 787500, money = 15000, tibiaCoins = 4}, --"Stonecracker"
+    [33] = {name = "Brimstone Bug", killsRequired  = 300, creatures = {"brimstone bug"}, exp = 236250, money = 10000, tibiaCoins = 2}, --"Sulphur Scuttler"
+    [34] = {name = "Demons", killsRequired  = 2000, creatures = {"demon"}, exp = 7500000, money = 30000, tibiaCoins = 30}, --"Demonica"
+    [35] = {name = "Destroyers", killsRequired  = 400, creatures = {"destroyer"}, exp = 1125000, money = 20000, tibiaCoins = 3}, --"Bretzecutioner"
+    [36] = {name = "Drakens", killsRequired  = 500, creatures = {"draken abomination", "draken elite", "draken spellweaver", "draken warmaster"}, exp = 1078125, money = 5000, tibiaCoins = 3}, --"Paiz the Pauperizer"
+    [37] = {name = "Frost Dragons", killsRequired  = 400, creatures = {"frost dragon", "frost dragon hatchling"}, exp = 540000, money = 0, tibiaCoins = 4}, --"Frosty"
+    [38] = {name = "Ghastly Dragons", killsRequired  = 300, creatures = {"ghastly dragon"}, exp = 1207500, money = 15000, tibiaCoins = 4}, --"Ethershreck"
+    [39] = {name = "Hellhound", killsRequired  = 250, creatures = {"hellhound"}, exp = 1530000, money = 15000, tibiaCoins = 4}, --"Kerberos"
+    [40] = {name = "Hellspawns", killsRequired  = 400, creatures = {"hellspawn"}, exp = 956250, money = 10000, tibiaCoins = 3}, --"Flameborn"
+    [41] = {name = "High Class Lizards", killsRequired  = 400, creatures = {"lizard legionnaire", "lizard dragon priest", "lizard high guard", "lizard zaogun", "eternal guardian", "lizard chosen"}, exp = 700000, money = 10000, tibiaCoins = 3}, --"Fazzrah"
+    [42] = {name = "Hydras", killsRequired  = 400, creatures = {"hydra"}, exp = 630000, money = 15000, tibiaCoins = 4}, --"The Many"
+    [43] = {name = "Killer Caimans", killsRequired  = 300, creatures = {"killer caiman"}, exp = 236250, money = 0, tibiaCoins = 2}, --"Killa"
+    [44] = {name = "Medusa", killsRequired  = 300, creatures = {"medusa"}, exp = 1063125, money = 15000, tibiaCoins = 4}, --"Gorgo"
+    [45] = {name = "Nightmares", killsRequired  = 400, creatures = {"nightmare", "nightmare scion"}, exp = 645000, money = 10000, tibiaCoins = 3}, --"Tormentor"
+    [46] = {name = "Quaras", killsRequired  = 500, creatures = {"quara constrictor", "quara constrictor scourt", "quara hydromancer", "quara hydromancer scout", "quara mantassin", "quara mantassin scout", "quara pincher", "quara pincher scout", "quara predator", "quara predator scout"}, exp = 337500, money = 10000, tibiaCoins = 3}, --"Thul"
+    [47] = {name = "Sea Serpents", killsRequired  = 500, creatures = {"sea serpent", "young sea serpent"}, exp = 810000, money = 15000, tibiaCoins = 4}, --"Leviathan"
+    [48] = {name = "Serpent Spawns", killsRequired  = 400, creatures = {"serpent spawn"}, exp = 1006500, money = 15000, tibiaCoins = 4}, --"The Noxious Spawn"
+    [49] = {name = "Undead Dragons", killsRequired  = 300, creatures = {"undead dragon"}, exp = 2008800, money = 5000, tibiaCoins = 4}, --"Zanakeph"
+    [50] = {name = "Werewolves", killsRequired  = 300, creatures = {"+"}, exp = 498750, money = 10000, tibiaCoins = 3}, --"Hemming"
 }
 --teleports tasks config
 bosses = {
@@ -67,26 +65,25 @@ bosses = {
 	[10017] = {bossName = 'Fleshcrawler', bossPosition = Position(6236, 1187, 9), centerPosition = Position(6230, 1188, 9), rangeX = 12, rangeY = 12},
 	[10018] = {bossName = 'Ribstride', bossPosition = Position(6974, 1282, 7), centerPosition = Position(6976, 1281, 7), rangeX = 12, rangeY = 12},
 	[10020] = {bossName = 'The Old Widow', bossPosition = Position(5608, 1669, 8), centerPosition = Position(5611, 1673, 8), rangeX = 12, rangeY = 12},
-	[10029] = {bossName = 'Thul', bossPosition = Position(6260, 1392, 10), centerPosition = Position(6256, 1394, 10), rangeX = 11, rangeY = 11},
-	[10048] = {bossName = 'Thul', bossPosition = Position(6260, 1392, 10), centerPosition = Position(6256, 1394, 10), rangeX = 11, rangeY = 11},
-	[10052] = {bossName = 'Hemming', bossPosition = Position(6177, 1141, 7), centerPosition = Position(6177, 1148, 7), rangeX = 12, rangeY = 12},
-	[10047] = {bossName = 'Tormentor', bossPosition = Position(6032, 1402, 12), centerPosition = Position(6039, 1399, 12), rangeX = 12, rangeY = 12},
-	[10041] = {bossName = 'Flameborn', bossPosition = Position(6702, 609, 9), centerPosition = Position(6708, 608, 9), rangeX = 12, rangeY = 12},
-	[10042] = {bossName = 'Fazzrah', bossPosition = Position(6454, 923, 6), centerPosition = Position(6454, 928, 6), rangeX = 12, rangeY = 12},
-	[10030] = {bossName = 'Tromphonyte', bossPosition = Position(6051, 1162, 9), centerPosition = Position(6045, 1161, 9), rangeX = 12, rangeY = 12},
-	[10034] = {bossName = 'Sulphur Scuttler', bossPosition = Position(6435, 899, 8), centerPosition = Position(6434, 895, 8), rangeX = 12, rangeY = 12},
+	[10046] = {bossName = 'Thul', bossPosition = Position(6260, 1392, 10), centerPosition = Position(6256, 1394, 10), rangeX = 11, rangeY = 11},
+	[10050] = {bossName = 'Hemming', bossPosition = Position(6177, 1141, 7), centerPosition = Position(6177, 1148, 7), rangeX = 12, rangeY = 12},
+	[10045] = {bossName = 'Tormentor', bossPosition = Position(6032, 1402, 12), centerPosition = Position(6039, 1399, 12), rangeX = 12, rangeY = 12},
+	[10040] = {bossName = 'Flameborn', bossPosition = Position(6702, 609, 9), centerPosition = Position(6708, 608, 9), rangeX = 12, rangeY = 12},
+	[10041] = {bossName = 'Fazzrah', bossPosition = Position(6454, 923, 6), centerPosition = Position(6454, 928, 6), rangeX = 12, rangeY = 12},
+	[10029] = {bossName = 'Tromphonyte', bossPosition = Position(6051, 1162, 9), centerPosition = Position(6045, 1161, 9), rangeX = 12, rangeY = 12},
+	[10033] = {bossName = 'Sulphur Scuttler', bossPosition = Position(6435, 899, 8), centerPosition = Position(6434, 895, 8), rangeX = 12, rangeY = 12},
 	[10023] = {bossName = 'Bruise Payne', bossPosition = Position(6227, 847, 6), centerPosition = Position(6228, 851, 6), rangeX = 12, rangeY = 12},
-	[10043] = {bossName = 'The Many', bossPosition = Position(6674, 852, 9), centerPosition = Position(6673, 857, 9), rangeX = 12, rangeY = 12},
-	[10049] = {bossName = 'Leviathan', bossPosition = Position(6506, 1555, 9), centerPosition = Position(6510, 1560, 9), rangeX = 14, rangeY = 14},
-	[10033] = {bossName = 'Stonecracker', bossPosition = Position(6610, 815, 9), centerPosition = Position(6608, 820, 9), rangeX = 12, rangeY = 12},
-	[10050] = {bossName = 'The Noxious Spawn', bossPosition = Position(6578, 755, 8), centerPosition = Position(6584, 755, 8), rangeX = 14, rangeY = 14},
-	[10045] = {bossName = 'Gorgo', bossPosition = Position(6584, 581, 11), centerPosition = Position(6580, 580, 11), rangeX = 12, rangeY = 12},
-	[10040] = {bossName = 'Kerberos', bossPosition = Position(5585, 1525, 13), centerPosition = Position(5589, 1527, 13), rangeX = 12, rangeY = 12},
-	[10039] = {bossName = 'Ethershreck', bossPosition = Position(6673, 925, 12), centerPosition = Position(6677, 926, 12), rangeX = 12, rangeY = 12},
-	[10037] = {bossName = 'Paiz the Pauperizer', bossPosition = Position(6455, 933, 11), centerPosition = Position(6449, 936, 11), rangeX = 12, rangeY = 12},
-	[10036] = {bossName = 'Bretzecutioner', bossPosition = Position(6977, 1344, 9), centerPosition = Position(6981, 1343, 9), rangeX = 12, rangeY = 12},
-	[10051] = {bossName = 'Zanekeph', bossPosition = Position(6627, 595, 10), centerPosition = Position(6632, 598, 10), rangeX = 14, rangeY = 14},
-	[10035] = {bossName = 'Demonica', bossPosition = Position(5742, 1438, 12), centerPosition = Position(5742, 1428, 12), rangeX = 15, rangeY = 15},
+	[10042] = {bossName = 'The Many', bossPosition = Position(6674, 852, 9), centerPosition = Position(6673, 857, 9), rangeX = 12, rangeY = 12},
+	[10047] = {bossName = 'Leviathan', bossPosition = Position(6506, 1555, 9), centerPosition = Position(6510, 1560, 9), rangeX = 14, rangeY = 14},
+	[10032] = {bossName = 'Stonecracker', bossPosition = Position(6610, 815, 9), centerPosition = Position(6608, 820, 9), rangeX = 12, rangeY = 12},
+	[10048] = {bossName = 'The Noxious Spawn', bossPosition = Position(6578, 755, 8), centerPosition = Position(6584, 755, 8), rangeX = 14, rangeY = 14},
+	[10044] = {bossName = 'Gorgo', bossPosition = Position(6584, 581, 11), centerPosition = Position(6580, 580, 11), rangeX = 12, rangeY = 12},
+	[10039] = {bossName = 'Kerberos', bossPosition = Position(5585, 1525, 13), centerPosition = Position(5589, 1527, 13), rangeX = 12, rangeY = 12},
+	[10038] = {bossName = 'Ethershreck', bossPosition = Position(6673, 925, 12), centerPosition = Position(6677, 926, 12), rangeX = 12, rangeY = 12},
+	[10036] = {bossName = 'Paiz the Pauperizer', bossPosition = Position(6455, 933, 11), centerPosition = Position(6449, 936, 11), rangeX = 12, rangeY = 12},
+	[10035] = {bossName = 'Bretzecutioner', bossPosition = Position(6977, 1344, 9), centerPosition = Position(6981, 1343, 9), rangeX = 12, rangeY = 12},
+	[10049] = {bossName = 'Zanekeph', bossPosition = Position(6627, 595, 10), centerPosition = Position(6632, 598, 10), rangeX = 14, rangeY = 14},
+	[10034] = {bossName = 'Demonica', bossPosition = Position(5742, 1438, 12), centerPosition = Position(5742, 1428, 12), rangeX = 15, rangeY = 15},
 	[10010] = {bossName = 'Bibby Bloodbath', bossPosition = Position(5920, 1878, 8), centerPosition = Position(5918, 1881, 8), rangeX = 9, rangeY = 9},
 	[10016] = {bossName = 'Ripper', bossPosition = Position(6043, 1584, 8), centerPosition = Position(6050, 1589, 8), rangeX = 9, rangeY = 9},
 	[10008] = {bossName = 'The Horned Fox', bossPosition = Position(5962, 1351, 9), centerPosition = Position(5962, 1353, 9), rangeX = 12, rangeY = 12},
@@ -94,16 +91,15 @@ bosses = {
 	[10013] = {bossName = 'Thermite', bossPosition = Position(6865, 1269, 9), centerPosition = Position(6867, 1276, 9), rangeX = 14, rangeY = 14},
 	[10015] = {bossName = 'Thorner', bossPosition = Position(6643, 513, 7), centerPosition = Position(6635, 509, 7), rangeX = 9, rangeY = 9},
 	[10026] = {bossName = 'Necropharus', bossPosition = Position(6113, 1571, 12), centerPosition = Position(6112, 1576, 12), rangeX = 12, rangeY = 12},
-	[10046] = {bossName = 'Necropharus', bossPosition = Position(6113, 1571, 12), centerPosition = Position(6112, 1576, 12), rangeX = 12, rangeY = 12},
 	[10027] = {bossName = 'Brutus', bossPosition = Position(5967, 1083, 8), centerPosition = Position(5972, 1079, 8), rangeX = 9, rangeY = 9},
 	[10009] = {bossName = 'Mutanted', bossPosition = Position(6231, 1085, 6), centerPosition = Position(6235, 1085, 6), rangeX = 9, rangeY = 9},
 	[10025] = {bossName = 'Tigre', bossPosition = Position(6240, 910, 8), centerPosition = Position(6247, 915, 8), rangeX = 9, rangeY = 9},
-	[10038] = {bossName = 'Frosty', bossPosition = Position(6493, 1842, 8), centerPosition = Position(6493, 1847, 8), rangeX = 9, rangeY = 9},
-	[10032] = {bossName = 'Reptilia', bossPosition = Position(6578, 528, 7), centerPosition = Position(6585, 531, 7), rangeX = 9, rangeY = 9},
+	[10037] = {bossName = 'Frosty', bossPosition = Position(6493, 1842, 8), centerPosition = Position(6493, 1847, 8), rangeX = 9, rangeY = 9},
+	[10031] = {bossName = 'Reptilia', bossPosition = Position(6578, 528, 7), centerPosition = Position(6585, 531, 7), rangeX = 9, rangeY = 9},
 	[10012] = {bossName = 'Grorlam', bossPosition = Position(6761, 1244, 9), centerPosition = Position(6766, 1239, 9), rangeX = 12, rangeY = 12},
 	[10001] = {bossName = 'Gorila', bossPosition = Position(6767, 574, 6), centerPosition = Position(6772, 574, 6), rangeX = 9, rangeY = 9},
 	[10005] = {bossName = 'Stoner', bossPosition = Position(5863, 1791, 5), centerPosition = Position(5865, 1795, 5), rangeX = 8, rangeY = 8},
-	[10044] = {bossName = 'Killa', bossPosition = Position(6475, 954, 8), centerPosition = Position(6469, 957, 8), rangeX = 10, rangeY = 10},
-	[10031] = {bossName = 'Fiery Widow', bossPosition = Position(6620, 1343, 9), centerPosition = Position(6625, 1347, 9), rangeX = 9, rangeY = 9},
+	[10043] = {bossName = 'Killa', bossPosition = Position(6475, 954, 8), centerPosition = Position(6469, 957, 8), rangeX = 10, rangeY = 10},
+	[10030] = {bossName = 'Fiery Widow', bossPosition = Position(6620, 1343, 9), centerPosition = Position(6625, 1347, 9), rangeX = 9, rangeY = 9},
 	[10022] = {bossName = 'Deadly Beetle', bossPosition = Position(6396, 855, 7), centerPosition = Position(6393, 860, 7), rangeX = 9, rangeY = 9}
 }
