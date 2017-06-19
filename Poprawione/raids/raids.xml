@@ -78,4 +78,5 @@
   <raid name="the_welter" file="bossy/the_welter.xml" interval2="600" margin="180" />
   <raid name="tyrn" file="bossy/tyrn.xml" interval2="500" margin="180" />
   <raid name="tyrn2" file="bossy/tyrn2.xml" interval2="500" margin="180" />
+	<raid name="The Flaming Orchid" file="bossy/The Flaming Orchid.xml" interval2="30" margin="0" chance="50" repeat="true"/> <!-- The Flaming Orchid -->
 </raids>

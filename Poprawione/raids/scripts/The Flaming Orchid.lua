@@ -2,6 +2,7 @@ function onRaid()
     if getGlobalStorageValue(10) < 1 then
         Game.createMonster("The Flaming Orchid", Position(6615, 997, 3))
         Game.createMonster("Lich", Position(6596, 1013, 6))
+        Game.createMonster("Lich", Position(6597, 1015, 6))
         Game.createMonster("Lich", Position(6598, 1014, 6))
         Game.createMonster("Destroyer", Position(6609, 1005, 6))
         Game.createMonster("Destroyer", Position(6611, 1004, 6))
