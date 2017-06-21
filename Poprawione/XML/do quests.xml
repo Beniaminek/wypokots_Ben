@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+    <quest name="Miasto Malp" startstorageid="11101" startstoragevalue="1">
+		<mission name="Misje Hairyclesa" storageid="11102" startvalue="1" endvalue="18">
+			<missionstate id="1" description="Znajdz whispermoss w norach Dworcow w lesie duzych drzew na wschod stad i przynies to zielsko do Hairycles." />
+			<missionstate id="2" description="Znalazlez Whisper Moss. Hairycles jest szczesliwy z twoje prezentu. Pewnie bedzie mial dla ciebie kolejna misje. Alkaida nie spi" />
+			<missionstate id="3" description="Hairycles poprosil cie o przyniesienie tajemniczego syropu od ludzi. Magowie powinni cos wiedziec o tym plynie." />
+			<missionstate id="4" description="Zakonczyles druga misje. Hairycles byl szczesliwy za przyniesienie syropu. Chyba moze miec kolejna misje dla ciebie." />
+			<missionstate id="5" description="Hairycles poprosil cie o przyniesienie pergaminu magow z wioski Lizardow pod gorami." />
+			<missionstate id="6" description="Zakonczyles trzecia misje. Hairycles docenil to, ze przyniosles mu papier i sprobuje go odczytac. Moze pozniej bedzie mial dla ciebie kolejna misje." />
+			<missionstate id="7" description="Niestety Hairycles nie mogl zrozumiec jezyka lizardow, wiec poprosil cie o poszukanie wskazowki w grobowcu pod oaza na pustyni. Przeszukaj caly grobowiec i znajdz odpowiedz pomiedzy czerwonymi kamieniami." />
+			<missionstate id="8" description="Skonczyles czwarta misje. Hairycles wszedl do twojego umyslu i odczytal jezyk Lizardow. Teraz moze miec kolejna misje dla Ciebie." />
+			<missionstate id="9" description="Hairycles chce zbudowac amulet zycia do uratowania swojego ludu. Zdobadz jajo Hydry, ze wzgledu na jej silne wlasciwosci regeneracyjne." />
+			<missionstate id="10" description="Zakonczyles piata misje. Hairycles przygotowuje sie do stworzeni poteznego naszyjnika chroniacego jego malpi lud. Biedze mial dla ciebie kolejna misje." />
+			<missionstate id="11" description="Hairycles potrzebuje witches' cap grzyba, ktory rosnie na terenach w towarzystwie Bone Lordow." />
+			<missionstate id="12" description="Zakonczyles szosta misje. Przyniosles witches' cap grzya spowrotem do Hairyclesa. Czeka na ciebie aby przedstawic Ci kolejna misje." />
+			<missionstate id="13" description="Hairycles przeczytal, ze Lizardy planuja wezwac Demoniczne Lizardy, ktore pomoga odzyskac ich dawne swiatynie. Pokrzyzuj im plany zaklocajac ich szatanskie sztuczki." />
+			<missionstate id="14" description="You have completed the seventh mission. You found the old lizard ruins under Banuta and destroyed three of the casks with snake blood. Hairycles might have another mission for you." />
+			<missionstate id="15" description="The apes now need a symbol of their faith. Speak with the blind prophet in a cave to the northeast and go to the Forbidden Land. Find a hair of the giant, holy ape Bong and bring it back." />
+			<missionstate id="16" description="You completed the eighth mission. Hairycles gladly accepted the hair of the ape god which you brought him. He told you to have one final mission for you." />
+			<missionstate id="17" description="Go into the deepest catacombs under Banuta and destroy the monument of the snake god with the hammer that Hairycles gave to you." />
+			<missionstate id="18" description="You successfully destroyed the monument of the snake god. As reward, you can buy sacred statues from Hairycles. If you haven't done so yet, you should also ask him for a shaman outfit." />
+		</mission>
+	</quest>
+</quests>
