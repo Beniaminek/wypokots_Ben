@@ -13,10 +13,9 @@ config = {
     [11] = {name = "Rotworms", killsRequired  = 200, creatures = {"rotworm", "carrion worm"}, exp = 8000, money = 1000, tibiaCoins = 1},
     [12] = {name = "Stone Golems", killsRequired  = 400, creatures = {"stone golem"}, exp = 72000, money = 0, tibiaCoins = 2}, --"Grorlam"
     [13] = {name = "Tarantulas", killsRequired  = 300, creatures = {"tarantula"}, exp = 27000, money = 2000, tibiaCoins = 1}, --"Hide"
-    [13] = {name = "Terramites", killsRequired  = 300, creatures = {"terramite"}, exp = 72000, money = 5000, tibiaCoins = 2}, --"Thermite"
+    [14] = {name = "Terramites", killsRequired  = 300, creatures = {"terramite"}, exp = 72000, money = 5000, tibiaCoins = 2}, --"Thermite"
     [15] = {name = "Tortoises", killsRequired  = 300, creatures = {"tortoise", "thornback tortoise"}, exp = 54000, money = 4000, tibiaCoins = 1}, --"Thorner"
     [16] = {name = "Weak undeads", killsRequired  = 300, creatures = {"ghoul", "mummy", "skeleton", "skeleton warrior", "crypt shambler", "zombie"}, exp = 39000, money = 5000, tibiaCoins = 2}, --"Ripper"
-    -- to level 50
     [17] = {name = "Ancient Scarabs", killsRequired  = 300, creatures = {"ancient scarab"}, exp = 162000, money = 7000, tibiaCoins = 2}, --"Fleshcrawler"
     [18] = {name = "Bone Beasts", killsRequired  = 300, creatures = {"bonebeast"}, exp = 130500, money = 7000, tibiaCoins = 2}, --"Ribstride"
     [19] = {name = "Crystal Spiders", killsRequired  = 300, creatures = {"crystal spider"}, exp = 202500, money = 7000, tibiaCoins = 2}, --"Bloodweb"
@@ -32,7 +31,6 @@ config = {
     [29] = {name = "Stampors", killsRequired  = 200, creatures = {"stampor"}, exp = 117000, money = 10000, tibiaCoins = 2}, --"Tromphonyte"
     [30] = {name = "Wailing Widows", killsRequired  = 400, creatures = {"wailing widow"}, exp = 157500, money = 0, tibiaCoins = 2}, --"Fiery Widow"
     [31] = {name = "Wyverns", killsRequired  = 300, creatures = {"wyvern"}, exp = 96560, money = 0, tibiaCoins = 2}, --"Reptilia"
- --   to level 100
     [32] = {name = "Behemoths", killsRequired  = 300, creatures = {"behemoth"}, exp = 787500, money = 15000, tibiaCoins = 4}, --"Stonecracker"
     [33] = {name = "Brimstone Bug", killsRequired  = 300, creatures = {"brimstone bug"}, exp = 236250, money = 10000, tibiaCoins = 2}, --"Sulphur Scuttler"
     [34] = {name = "Demons", killsRequired  = 2000, creatures = {"demon"}, exp = 7500000, money = 30000, tibiaCoins = 30}, --"Demonica"
@@ -51,7 +49,7 @@ config = {
     [47] = {name = "Sea Serpents", killsRequired  = 500, creatures = {"sea serpent", "young sea serpent"}, exp = 810000, money = 15000, tibiaCoins = 4}, --"Leviathan"
     [48] = {name = "Serpent Spawns", killsRequired  = 400, creatures = {"serpent spawn"}, exp = 1006500, money = 15000, tibiaCoins = 4}, --"The Noxious Spawn"
     [49] = {name = "Undead Dragons", killsRequired  = 300, creatures = {"undead dragon"}, exp = 2008800, money = 5000, tibiaCoins = 4}, --"Zanakeph"
-    [50] = {name = "Werewolves", killsRequired  = 300, creatures = {"+"}, exp = 498750, money = 10000, tibiaCoins = 3}, --"Hemming"
+    [50] = {name = "Werewolves", killsRequired  = 300, creatures = {"+"}, exp = 498750, money = 10000, tibiaCoins = 3} --"Hemming"
 }
 --teleports tasks config
 bosses = {
