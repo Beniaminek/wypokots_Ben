@@ -14,7 +14,7 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="80" />
-		<flag runonhealth="275" />
+		<flag runonhealth="205" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400" />
@@ -23,7 +23,7 @@
 			<attribute key="areaEffect" value="greenshimmer" />
 		</attack>
 	</attacks>
-	<defenses armor="44" defense="20">
+	<defenses armor="54" defense="30">
 	</defenses>
 	<elements>
 		<element icePercent="10" />
