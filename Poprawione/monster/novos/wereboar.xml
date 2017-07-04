@@ -1,0 +1,69 @@
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wereboar" nameDescription="a wereboar" race="blood" experience="2000" speed="210" manacost="0">
+	<health now="2200" max="2200" />
+	<look type="721" corpse="24722" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="275" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="60" poison="140" />
+		<attack name="melee" interval="2000" min="0" max="-385" />
+		<attack name="speed" interval="4000" chance="20" radius="7" target="1" speedchange="-600">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="invisible" interval="2000" chance="15" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="5" />
+		<element firePercent="-5" />
+		<element energyPercent="15" />
+		<element holyPercent="-5" />
+		<element deathPercent="50" />
+		<element earthPercent="50" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="SNUFFLE" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="242" chance="80000" />	<!-- gold coin -->		
+		<item id="2152" countmax="3" chance="90200" />				<!-- platinum -->		
+		<item id="2789" chance="7000" />				<!-- Brown Mushroom -->		
+		<item id="8473" chance="1810" />					<!-- Ultimate Health Potion -->			
+		<item id="7588" chance="4600" />					<!--  Strong Health Potion -->		
+		<item id="24709" chance="14000" />					<!-- Wereboar Hooves -->		
+		<item id="24743" chance="1580" />					<!-- Wereboar Loincloth -->		
+		<item id="24710" chance="14450" />					<!-- Wereboar Tusks -->		
+		<item id="7439" chance="970" />					<!-- Berserk Potion -->			
+		<item id="7432" chance="690" />					<!-- Furry Club  -->
+		
+		
+		<item id="2197" subtype="5" chance="630" />					<!-- Stone Skin Amulet -->		
+		<item id="7419" chance="130" />					<!-- Dreaded Cleaver -->		
+		<item id="24741" chance="260" />					<!-- Fur Armor -->
+	
+	<item id="24758" chance="140" />					<!-- Wereboar Trophy -->
+	<item id="24429" chance="640" />					<!-- Werewolf Amulet -->
+	<item id="24739" chance="370" />					<!-- moonlight crystals -->
+	</loot>
+</monster>

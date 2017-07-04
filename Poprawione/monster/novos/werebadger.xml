@@ -1,0 +1,81 @@
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Werebadger" nameDescription="a werebadger" race="blood" experience="1600" speed="210" manacost="0">
+	<health now="1700" max="1700" />
+	<look type="729" corpse="24723" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="275" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="60" poison="140" />
+		<attack name="lifedrain" interval="2000" chance="20" count="5" range="7" target="1" min="-21" max="-100" speedchange="-750" duration="2000">
+			<attribute key="shootEffect" value="earth" />
+			<attribute key="areaEffect" value="carniphila" />
+		</attack>
+		<attack name="death" interval="2000" chance="8" length="8" spread="0" min="-190" max="-230">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="13" range="4" min="-65" max="-95" />
+		<attack name="earth" interval="2000" chance="15" length="8" spread="3" min="-10" max="-100">
+			<attribute key="areaEffect" value="carniphila" />
+		</attack>
+		<attack name="speed" interval="4000" chance="15" radius="5" target="1" speedchange="-600">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="werebadger curse" interval="2000" chance="15" />
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="25" min="50" max="120">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="invisible" interval="2000" chance="10" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="-5" />
+		<element firePercent="-10" />
+		<element energyPercent="-10" />
+		<element holyPercent="-5" />
+		<element deathPercent="-40" />
+		<element earthPercent="-50" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="SNUFFLE" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="242" chance="97000" />	<!-- gold coin -->		
+		<item id="2152" countmax="5" chance="18200" />				<!-- platyna -->		
+		<item id="8845" chance="20000" />				<!-- Beetroot -->		
+		<item id="2789" chance="5000" />				<!-- Brown Mushroom -->		
+		<item id="7620" chance="5810" />					<!-- Mana Potion -->			
+		<item id="7589" chance="4500" />					<!-- Strong Mana Potion, -->		
+		<item id="2805" chance="5000" />					<!-- Troll Green -->		
+		<item id="24707" chance="12700" />					<!-- claws -->		
+		<item id="24711" chance="15000" />					<!-- werebadger skull -->		
+		<item id="24742" chance="760" />					<!-- badger boots -->		
+		<item id="2171" chance="380" />					<!-- Platinum Amulet  -->
+		<item id="2214" chance="960" />					<!-- Ring of Healing -->		
+		<item id="8910" chance="380" />					<!-- Underworld Rod -->		
+		<item id="8922" chance="760" />					<!-- Wand of Voodoo -->
+		<item id="24739" chance="1500" />					<!-- moonlight crystals -->
+		<item id="24716" chance="380" />					<!-- werewolf amulet -->
+		<item id="24757" chance="100" />					<!-- Werebadger Trophy -->
+	
+	</loot>
+</monster>
