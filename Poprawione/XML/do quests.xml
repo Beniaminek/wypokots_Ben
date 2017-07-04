@@ -15,11 +15,11 @@
 			<missionstate id="11" description="Hairycles potrzebuje witches' cap grzyba, ktory rosnie na terenach w towarzystwie Bone Lordow." />
 			<missionstate id="12" description="Zakonczyles szosta misje. Przyniosles witches' cap grzya spowrotem do Hairyclesa. Czeka na ciebie aby przedstawic Ci kolejna misje." />
 			<missionstate id="13" description="Hairycles przeczytal, ze Lizardy planuja wezwac Demoniczne Lizardy, ktore pomoga odzyskac ich dawne swiatynie. Pokrzyzuj im plany zaklocajac ich szatanskie sztuczki." />
-			<missionstate id="14" description="You have completed the seventh mission. You found the old lizard ruins under Banuta and destroyed three of the casks with snake blood. Hairycles might have another mission for you." />
-			<missionstate id="15" description="The apes now need a symbol of their faith. Speak with the blind prophet in a cave to the northeast and go to the Forbidden Land. Find a hair of the giant, holy ape Bong and bring it back." />
-			<missionstate id="16" description="You completed the eighth mission. Hairycles gladly accepted the hair of the ape god which you brought him. He told you to have one final mission for you." />
-			<missionstate id="17" description="Go into the deepest catacombs under Banuta and destroy the monument of the snake god with the hammer that Hairycles gave to you." />
-			<missionstate id="18" description="You successfully destroyed the monument of the snake god. As reward, you can buy sacred statues from Hairycles. If you haven't done so yet, you should also ask him for a shaman outfit." />
+			<missionstate id="14" description="Skonczyles siodma misje. Znalazles sposob na przeszkodzenie otwierania bramy Lizardom. Hairycles moze miec dla Ciebie kolejne misje." />
+			<missionstate id="15" description="Malpy potrzebuja teraz symbolu ich wiary. Udaj sie do niejakiej groty gigantow. Znajdz w ich legowisku troche wlosia." />
+			<missionstate id="16" description="Ukonczyles osma misje. Hairycles z wdziecznoscia przyjal futro ich boga. Powiedzial, ze ma dla ciebie ostatnia misje." />
+			<missionstate id="17" description="Idz w glebokie katakumby Banuty i zniszcz posag glowy weza mlotkiem, ktory dostales od malp." />
+			<missionstate id="18" description="Udalo ci sie zniszczyc pomnik boga wezy. W nagrode mozesz kupic jakies specjalne rzeczy u Hairyclesa. Jesli jeszcze sie go nie spytales, powienienes z nim porozmawiac o jego szamanskich mocach." />
 		</mission>
 	</quest>
 </quests>

@@ -1,8 +1,13 @@
 	dodać do action.xml
     <action actionid="2490" script="dziury_w_ziemi.lua"/>
     <action actionid="2491" script="asury_door.lua"/>
-	<!-- The Ape City Quest -->
+		<!-- The Ape City Quest -->
 	<action actionid="2145" script="quests/The Ape City/whispermoss.lua" />
 	<action actionid="2151" script="quests/The Ape City/oldparchment.lua" />
 	<action actionid="2153" script="quests/The Ape City/tombwall.lua" />
 	<action actionid="2154" script="quests/The Ape City/grzyb.lua" />
+	<action actionid="2155" script="quests/The Ape City/apehair.lua" />
+	<action actionid="2156" script="quests/The Ape City/banutalevers.lua" />
+	<action actionid="2157" script="quests/The Ape City/banuta_door.lua" />
+	<action itemid="4846"  script="quests/The Ape City/Snakedestroyer.lua" />
+	<!-- -->

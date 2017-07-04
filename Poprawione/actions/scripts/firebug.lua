@@ -24,7 +24,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 local drunk = Condition(CONDITION_DRUNK)
 drunk:setParameter(CONDITION_PARAM_TICKS, 60*1000)
 	-- The Ape City Quest --
-	if toPosition == campfirePosition and target.itemid = 1422 and player:getStorageValue(11107) == 1 then
+	if toPosition == campfirePosition and target.itemid == 1422 and player:getStorageValue(11107) == 1 then
 		target:transform(1423)
 		Game.createMonster("Draken Spellweaver", Position(6499, 589, 7))
 		Game.createMonster("Draken Spellweaver", Position(6497, 593, 7))
