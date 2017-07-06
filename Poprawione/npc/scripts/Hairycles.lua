@@ -113,7 +113,7 @@ local function creatureSayCallback(cid, type, msg)
 
 		elseif questProgress == 13 then
 			if player:getStorageValue(11107) == 2 then
-				npcHandler:say('You do please Hairycles again, friend. Me hope madness will not spread further now. Perhaps you are ready for other mission.', cid)
+				npcHandler:say('Ratujesz nasza sytuacje, przyjacielu. Mam nadzieje, ze szalenstwo jeszcze nie rozprzestrzeni sie. Pewnie jest gotowy na kolejna misje.', cid)
 				player:setStorageValue(11102, 14)
 			else
 				npcHandler:say('Prosze, przeszkodz im jakos w tych rytualach. Ja tam niczego szczegolnego nie widzialem.', cid)
@@ -121,48 +121,46 @@ local function creatureSayCallback(cid, type, msg)
 
 		elseif questProgress == 14 then
 			npcHandler:say({
-				'Now that the false cult was stopped, we need to strengthen the spirit of my people. We need a symbol of our faith that ape people can see and touch. ...',
-				'Since you have proven a friend of the ape people I will grant you permission to enter the forbidden land. ...',
-				'To enter the forbidden land in the north-east of the jungle, look for a cave in the mountains east of it. There you will find the blind prophet. ...',
-				'Tell him Hairycles you sent and he will grant you entrance. ...',
-				'Forbidden land is home of Bong. Holy giant ape big as mountain. Don\'t annoy him in any way but look for a hair of holy ape. ...',
-				'You might find at places he has been, should be easy to see them since Bong is big. ...',
-				'Return a hair of the holy ape to me. Will you do this for Hairycles?'
+				'Teraz kiedy kult zostal zatrzymany musimy wzmocnic ducha moich braci. Potrzebujemy symbolu wiary, ktory malpy beda mogly zobaczyc i dotknac. ...',
+				'Istnieje pewna grota gigantow na poludniu. Jestesmy dziecmi prastarego giganta wielkiego jak gora. Malo o nich wiemy, ale gdybysmy zdobyli jakas czesc wlosia. ...',
+				'Moze stawilbys czola lekom i sprobowal znalezc cos w ich legowiskach. Jesli maja taka sama bitna nature jak nasza, to powinienes znalezc cos na galeziach krzewow tam rosnacych. ...',
+				'Przynies mi wlosie wielkiej swietej malpy. Zrobisz to dla Hairyclesa?'
 			}, cid)
 			npcHandler.topic[cid] = 15
 
 		elseif questProgress == 15 then
-			if player:getStorageValue(Storage.TheApeCity.HolyApeHair) == 1 then
-				npcHandler:say('You brought hair of holy ape?', cid)
+			if player:getStorageValue(11108) == 1 then
+				npcHandler:say('Przyniosles wlos swietej malpy?', cid)
 				npcHandler.topic[cid] = 16
 			else
-				npcHandler:say('Get a hair of holy ape from forbidden land in east. Speak with blind prophet in cave.', cid)
+				npcHandler:say('Zdobadz wlos swietej malpy giganta z groty na poludniu.', cid)
 			end
 
 		elseif questProgress == 16 then
 			npcHandler:say({
-				'You have proven yourself a friend, me will grant you permission to enter the deepest catacombs under Banuta which we have sealed in the past. ...',
-				'Me still can sense the evil presence there. We did not dare to go deeper and fight creatures of evil there. ...',
-				'You may go there, fight the evil and find the monument of the serpent god and destroy it with hammer me give to you. ...',
-				'Only then my people will be safe. Please tell Hairycles, will you go there?'
+				'Udowodniles, ze jestes przyjacielem. Dostajesz ode mnie zezwolenie na wejscie do glebszych poziomow katakumb swiatyni lizardow. ...',
+				'Dalej moge wyczuc zlo, ktore tam sie czai. My nie odwazylismy sie tam wejsc i walczyc z demonami. ...',
+				'Moze poszedlbys tam, przedarl sie przez zle istoty, odnalazl posag boga jaszczurow i zniszczyl mlotkiem, ktory ci dam. ...',
+				'Tylko w ten sposob zapewnie moich ludziom pokoj i bezpieczenstwo. Prosze, posluchaj Hairyclesa, pojdziesz tam?'
 			}, cid)
 			npcHandler.topic[cid] = 17
 
 		elseif questProgress == 17 then
 			if player:getStorageValue(Storage.TheApeCity.SnakeDestroyer) == 1 then
 				npcHandler:say({
-					'Finally my people are safe! You have done incredible good for ape people and one day even me brethren will recognise that. ...',
-					'I wish I could speak for all when me call you true friend but my people need time to get accustomed to change. ...',
-					'Let us hope one day whole Banuta will greet you as a friend. Perhaps you want to check me offers for special friends... or shamanic powers.'
+					'W koncu moj lud jest bezpieczny! Uczyniliscie niewiarygodne dobro dla nas i pewnego dnia nawet moi bracia dostrzega to. ...',
+					'Chcialbym mowic za wszystkich, kiedy nazywam cie swoich przyjacielem, ale moi ludzie potrzebuja czasu na przyzwyczajenie sie do zmian. ...',
+					'Miejmy nadzieje, ze pewnego dnia cala wioska powita Cie jako przyjaciela. Moze chcesz sprawdzić oferty dla specjalnych przyjaciol, albo pouczyc sie szamanskich mocy?'
 				}, cid)
-				player:setStorageValue(Storage.TheApeCity.Questline, 18)
+				player:setStorageValue(11102, 18)
+				player:addItem(3955, 1)
 				player:addAchievement('Friend of the Apes')
 			else
-				npcHandler:say('Me know its much me asked for but go into the deepest catacombs under Banuta and destroy the monument of the serpent god.', cid)
+				npcHandler:say('Ja wiem, ze o wiele prosze, ale wejdz tam w podziemia i zniszcz pomnik boga wezy.', cid)
 			end
 
 		else
-			npcHandler:say('No more missions await you right now, friend. Perhaps you want to check me offers for special friends... or shamanic powers.', cid)
+			npcHandler:say('Nie mam wiecej misji dla ciebie. Moze chcesz sprawdzić oferty dla specjalnych przyjaciol, albo pouczyc sie szamanskich mocy?', cid)
 		end
 
 	elseif msgcontains(msg, 'historia') then
@@ -381,36 +379,37 @@ local function creatureSayCallback(cid, type, msg)
 		npcHandler.topic[cid] = 0
 
 	elseif npcHandler.topic[cid] == 15 then
-		if msgcontains(msg, 'yes') then
-			npcHandler:say('Hairycles proud of you. Go and find holy hair. Good luck, friend.', cid)
-			player:setStorageValue(Storage.TheApeCity.Questline, 15)
-		elseif msgcontains(msg, 'no') then
-			npcHandler:say('Me sad. Please reconsider.', cid)
+		if isInArray({"yes", "tak"}, msg) then
+			npcHandler:say('Hairycles jest dumny z ciebie. Idz i znajdz swiete wlosie. Powodzenia, przyajcielu.', cid)
+			player:setStorageValue(11102, 15)
+			player:setStorageValue(11108, 0)
+		elseif isInArray({"nie", "no"}, msg) then
+			npcHandler:say('Hmmm. Rozwaz to jeszcze raz.', cid)
 		end
 		npcHandler.topic[cid] = 0
 
 	elseif npcHandler.topic[cid] == 16 then
-		if msgcontains(msg, 'yes') then
+		if isInArray({"yes", "tak"}, msg) then
 			if not player:removeItem(4843, 1) then
-				npcHandler:say('You no have hair. You lost it? Go and look again.', cid)
-				player:setStorageValue(Storage.TheApeCity.HolyApeHair, -1)
+				npcHandler:say('Nie masz futra. Straciles je? Idz i sprawdz ponownie', cid)
+				player:setStorageValue(11108, 0)
 				return true
 			end
-
-			npcHandler:say('Incredible! You got a hair of holy Bong! This will raise the spirit of my people. You are truly a friend. But one last mission awaits you.', cid)
-			player:setStorageValue(Storage.TheApeCity.Questline, 16)
-		elseif msgcontains(msg, 'no') then
-			npcHandler:say('You no have hair. You lost it? Go and look again.', cid)
+			npcHandler:say('Niemozliwe! Masz futro swietego Bonga! To podniesie morale mojej wioski. Jestes prawdziwym przyjacielem. Ale jeszcze jedna, ostatnia misja Cie czeka.', cid)
+			player:setStorageValue(11102, 16)
+		elseif isInArray({"nie", "no"}, msg) then
+			npcHandler:say('Nie masz futra. Straciles je? Idz i sprawdz ponownie.', cid)
+			player:setStorageValue(11108, 0)
 		end
 		npcHandler.topic[cid] = 0
 
 	elseif npcHandler.topic[cid] == 17 then
-		if msgcontains(msg, 'yes') then
-			npcHandler:say('Hairycles sure you will make it. Just use hammer on all that looks like snake or lizard. Tell Hairycles if you succeed with mission.', cid)
-			player:setStorageValue(Storage.TheApeCity.Questline, 17)
+		if isInArray({"yes", "tak"}, msg) then
+			npcHandler:say('Hairycles jest pewien, ze ci sie uda. Po prostu rozwal ta glowe tego jaszczuroludzia. Powiedz Hairyclesowi jesli uda ci sie ukonczyc misje.', cid)
+			player:setStorageValue(11102, 17)
 			player:addItem(4846, 1)
-		elseif msgcontains(msg, 'no') then
-			npcHandler:say('Me sad. Please reconsider.', cid)
+		elseif isInArray({"nie", "no"}, msg) then
+			npcHandler:say('Hmmm. Rozwaz to jeszcze raz.', cid)
 		end
 		npcHandler.topic[cid] = 0
 
