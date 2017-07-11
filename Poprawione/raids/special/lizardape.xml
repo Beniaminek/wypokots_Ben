@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Jaszczuroludzie proboja bronic sie przed atakiem malp na ich osade." />
+
+	<areaspawn delay="15000" fromx="6684" fromy="781" fromz="7" tox="6740" toy="831" toz="7">
+        <monster name="Lizard Sentinel" minamount="20" maxamount="50" />
+        <monster name="Lizard Snakecharmer" minamount="20" maxamount="30" />
+		<monster name="Lizard Templar" minamount="20" maxamount="30" />
+	</areaspawn>
+	
+<!--<announce delay="15000" type="event" message="Malpy atakuja osade jaszczuroludzi." />-->
+  
+  	<areaspawn delay="15000" fromx="6682" fromy="761" fromz="7" tox="6758" toy="811" toz="7">
+        <monster name="Kongra" minamount="20" maxamount="50" />
+        <monster name="Merlkin" minamount="20" maxamount="30" />
+		<monster name="Sibang" minamount="50" maxamount="60" />
+	</areaspawn>
+
+<!--<announce delay="120000" type="event" message="Malpy atakuja osade jaszczuroludzi." />-->
+
+	<areaspawn delay="120000" fromx="6684" fromy="781" fromz="7" tox="6740" toy="831" toz="7">
+        <monster name="Lizard Sentinel" minamount="20" maxamount="50" />
+        <monster name="Lizard Snakecharmer" minamount="20" maxamount="30" />
+		<monster name="Lizard Templar" minamount="20" maxamount="30" />
+	</areaspawn>
+
+<!--<announce delay="120000" type="event" message="Malpy atakuja osade jaszczuroludzi." />-->	
+
+  	<areaspawn delay="120000" fromx="6682" fromy="761" fromz="7" tox="6758" toy="811" toz="7">
+        <monster name="Kongra" minamount="20" maxamount="50" />
+        <monster name="Merlkin" minamount="20" maxamount="30" />
+		<monster name="Sibang" minamount="50" maxamount="60" />
+	</areaspawn>
+  
+</raid>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Wiele snieznych wilkow zaczyna ujawniac sie przy sciezkach." />
+<announce delay="120000" type="event" message="Sniezne wilki przyszly sie panoszyc rowniez w dolinie pod wioska." />
+
+  <areaspawn delay="120000" fromx="6531" fromy="1827" fromz="7" tox="6565" toy="1862" toz="7">
+    <monster name="Winter Wolf" amount="30" />
+  </areaspawn>
+</raid>

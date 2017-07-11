@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Grupa minotaurow opuscila swoj oboz." />
+
+  <areaspawn delay="10000" fromx="5943" fromy="1357" fromz="7" tox="5975" toy="1383" toz="7">
+        <monster name="Minotaur" minamount="15" maxamount="20" />
+        <monster name="Minotaur Guard" minamount="5" maxamount="15" />
+        <monster name="Minotaur Archer" minamount="5" maxamount="20" />
+        <monster name="Minotaur Mage" minamount="5" maxamount="5" />
+  </areaspawn>
+  
+<announce delay="120000" type="event" message="Minotaury zblizaja sie do miasta!" />
+  
+  <areaspawn delay="120000" fromx="5891" fromy="1411" fromz="7" tox="5947" toy="1460" toz="7">
+        <monster name="Minotaur" minamount="35" maxamount="40" />
+        <monster name="Minotaur Guard" minamount="35" maxamount="35" />
+        <monster name="Minotaur Archer" minamount="35" maxamount="40" />
+        <monster name="Minotaur Mage" minamount="15" maxamount="15" />
+  </areaspawn>
+  
+<announce delay="180000" type="event" message="Minotaury atakuja mury miasta!" />
+
+  <areaspawn delay="185000" fromx="5885" fromy="1436" fromz="7" tox="5946" toy="1477" toz="7">
+        <monster name="Minotaur" minamount="35" maxamount="40" />
+        <monster name="Minotaur Guard" minamount="35" maxamount="35" />
+        <monster name="Minotaur Archer" minamount="35" maxamount="40" />
+        <monster name="Minotaur Mage" minamount="15" maxamount="15" />
+  </areaspawn>
+
+<announce delay="240000" type="event" message="Atak prawdopodobnie ustapi, jesli polegnie ich general!" />
+
+  <areaspawn delay="245000" fromx="5885" fromy="1436" fromz="7" tox="5946" toy="1477" toz="7">
+        <monster name="Minotaur" minamount="45" maxamount="60" />
+        <monster name="Minotaur Guard" minamount="45" maxamount="55" />
+        <monster name="Minotaur Archer" minamount="45" maxamount="50" />
+        <monster name="Minotaur Mage" minamount="15" maxamount="15" />
+        <monster name="General Murius" minamount="1" maxamount="1" />
+  </areaspawn>
+</raid>

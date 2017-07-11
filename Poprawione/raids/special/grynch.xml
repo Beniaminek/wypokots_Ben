@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Gobliny nadchodza okrasc miasto!" />
+
+<announce delay="120000" type="event" message="Gobliny przyszly okrasc miasto!" />
+
+  <areaspawn delay="125000" fromx="5793" fromy="1480" fromz="7" tox="5973" toy="1598" toz="7">
+    <monster name="Grynch Clan Goblin" minamount="180" maxamount="230" />
+  </areaspawn>
+
+  <areaspawn delay="360000" fromx="5793" fromy="1480" fromz="7" tox="5973" toy="1598" toz="7">
+    <monster name="Grynch Clan Goblin" minamount="180" maxamount="230" />
+  </areaspawn>
+
+</raid>

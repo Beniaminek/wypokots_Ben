@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Robactwo ponownie rozlazlo sie na zachodzie MirkoTown!" />
+
+ <areaspawn delay="10000" fromx="5711" fromy="1542" fromz="7" tox="5809" toy="1622" toz="7">
+    <monster name="Bug" minamount="100" maxamount="200" />
+  </areaspawn>
+
+ <announce delay="120000" type="event" message="Toksyczne robale atakuja farme!" />
+
+ <areaspawn delay="125000" fromx="5711" fromy="1542" fromz="7" tox="5809" toy="1622" toz="7">
+    <monster name="Brimstone Bug" minamount="30" maxamount="50" />
+  </areaspawn>
+
+ <announce delay="240000" type="event" message="Karaczany pojawiaja w okolicy farmy, gwardia wykopu niech postara sie je wypedzic!" />
+
+ <areaspawn delay="245000" fromx="5711" fromy="1542" fromz="7" tox="5809" toy="1622" toz="7">
+    <monster name="Brimstone Bug" minamount="10" maxamount="30" />
+    <monster name="Karaczan" minamount="5" maxamount="8" />
+  </areaspawn>
+
+</raid>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<!--<announce delay="1000" type="event" message="piracimirko" />-->
+
+  <areaspawn delay="10000" fromx="5984" fromy="1507" fromz="7" tox="6019" toy="1542" toz="7">
+        <monster name="Pirat Buccaneer" minamount="5" maxamount="15" />
+        <monster name="Pirate Marauder" minamount="5" maxamount="15" />
+  </areaspawn>
+
+</raid>

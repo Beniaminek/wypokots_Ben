@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<!-- Do poprawy: delaye, weryfikacja ilosci po zapelnieniu tej przestrzeni na ktorej sie respia  -->
+<announce delay="1000" type="event" message="Orki atakuja miasto od poludnia" />
+
+  <areaspawn delay="10000" fromx="5829" fromy="1613" fromz="7" tox="5959" toy="1661" toz="7">
+	<monster name="Orc" minamount="20" maxamount="40" />	
+	<monster name="Orc Spearman" minamount="20" maxamount="40" />
+	<monster name="Orc Warrior" minamount="20" maxamount="40" />
+	<monster name="Orc Shaman" minamount="20" maxamount="40" />
+        <monster name="Orc Leader" minamount="10" maxamount="20" />
+  </areaspawn>
+
+<announce delay="230000" type="event" message="Orki wyslaly dodatkowe posilki" />
+
+  <areaspawn delay="240000" fromx="5829" fromy="1613" fromz="7" tox="5959" toy="1661" toz="7">
+        <monster name="Orc" minamount="20" maxamount="40" />
+        <monster name="Orc Spearman" minamount="20" maxamount="40" />
+        <monster name="Orc Warrior" minamount="20" maxamount="40" />
+        <monster name="Orc Shaman" minamount="20" maxamount="40" />
+        <monster name="Orc Berserker" minamount="20" maxamount="40" />
+        <monster name="Orc Leader" minamount="20" maxamount="40" />
+        <monster name="Orc Warlord" minamount="20" maxamount="40" />
+  </areaspawn>
+
+  <singlespawn delay="360000" name="Orchelmet" x="5845" y="1629" z="7" />
+  <singlespawn delay="360000" name="Orcshield" x="5893" y="1639" z="7" />
+  <singlespawn delay="360000" name="Orcarmor" x="5931" y="1629" z="7" />
+
+
+
+</raid>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Panda" />-->
+  <singlespawn delay="10000" name="Panda" x="6597" y="773" z="7" />
+  <singlespawn delay="10000" name="Panda" x="6593" y="771" z="7" />
+  <singlespawn delay="10000" name="Panda" x="6593" y="764" z="6" />
+</raid>

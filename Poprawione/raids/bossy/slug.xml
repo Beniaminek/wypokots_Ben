@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Slug" />-->
+  <singlespawn delay="10000" name="Slug" x="5688" y="1656" z="7" />
+  <singlespawn delay="10000" name="Slug" x="5709" y="1675" z="7" />
+  <singlespawn delay="10000" name="Slug" x="5684" y="1688" z="7" />
+  <singlespawn delay="10000" name="Slug" x="5705" y="1701" z="7" />
+</raid>

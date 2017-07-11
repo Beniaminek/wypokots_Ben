@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Driady prowadza swoje obrzedy wokol fortecy elfow." />
+
+	<areaspawn delay="15000" fromx="5915" fromy="1817" fromz="7" tox="6068" toy="1872" toz="7">
+        <monster name="Forest Fury" minamount="20" maxamount="40" />
+        <monster name="Dryad" minamount="50" maxamount="100" />
+	</areaspawn>
+  
+	<areaspawn delay="5981" fromx="1918" fromy="1817" fromz="7" tox="6073" toy="1954" toz="7">
+        <monster name="Forest Fury" minamount="10" maxamount="20" />
+        <monster name="Dryad" minamount="20" maxamount="50" />
+	</areaspawn>
+  
+</raid>

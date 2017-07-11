@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raids>
+  <!-- Nowe -->
+  <raid name="barbarian" file="nowe/barbarian.xml" interval2="187" margin="0" chance="1" repeat="true" />
+  <raid name="barbarian" file="nowe/winterwolves.xml" interval2="600" margin="0" chance="10" repeat="true" />
+
 	<!-- Special -->
   <raid name="Grynch" file="special/grynch.xml" interval2="500" margin="180" repeat="true" />
   <raid name="Piraci" file="special/piraci.xml" interval2="500" margin="180" />
@@ -21,62 +25,55 @@
 	<raid name="ancienty" file="miasto/ancienty.xml" interval2="500" margin="180" />
 	<raid name="waspy" file="miasto/waspy.xml" interval2="250" margin="180" />
 	<raid name="malpy" file="miasto/malpy.xml" interval2="500" margin="180" />
-	<raid name="old widow" file="miasto/old widow.xml" interval2="500" margin="180" />
+	<raid name="old widow" file="miasto/old widow.xml" interval2="186" margin="0" chance="1" repeat="true" />
 
   <!-- Bossy -->
   <!-- <raid name="arthom_the_hunter" file="bossy/arthom_the_hunter.xml" interval2="500" margin="180" /> -->
   <!-- <raid name="duch_mirkotsa" file="bossy/duch_mirkotsa.xml" interval2="500" margin="180" /> -->
-  <raid name="countess_sorrow" file="bossy/countess_sorrow.xml" interval2="500" margin="180" />
-  <raid name="koksu" file="bossy/koksu.xml" interval2="500" margin="180" />
-  <raid name="dracola" file="bossy/dracola.xml" interval2="500" margin="180" />
-  <raid name="ekatrix" file="bossy/ekatrix.xml" interval2="500" margin="180" />
-  <raid name="fleshcrawler" file="bossy/fleshcrawler.xml" interval2="500" margin="180" />
-  <raid name="hide" file="bossy/hide.xml" interval2="500" margin="180" />
-  <raid name="massacre" file="bossy/massacre.xml" interval2="500" margin="180" />
-  <raid name="mr_punish" file="bossy/mr_punish.xml" interval2="500" margin="180" />
-  <raid name="sulphur_scuttler" file="bossy/sulphur_scuttler.xml" interval2="500" margin="180" />
-  <raid name="the_imperor" file="bossy/the_imperor.xml" interval2="500" margin="180" />
-  <raid name="the_many" file="bossy/the_many.xml" interval2="500" margin="180" />
-  <raid name="the_old_widow" file="bossy/the_old_widow.xml" interval2="500" margin="180" />
-  <raid name="the_handmaiden" file="bossy/the_handmaiden.xml" interval2="500" margin="180" />
-  <raid name="the_plasmother" file="bossy/the_plasmother.xml" interval2="500" margin="180" />
-  <raid name="tromphonyte" file="bossy/tromphonyte.xml" interval2="500" margin="180" />
-  <raid name="yaga_the_crone" file="bossy/yaga_the_crone.xml" interval2="500" margin="180" />
-  <raid name="undead_cavebear" file="bossy/undead_cavebear.xml" interval2="250" margin="110" />
-  <raid name="crustacea_gigantica" file="bossy/crustacea_gigantica.xml" interval2="250" margin="110" />
-  <raid name="slug" file="bossy/slug.xml" interval2="250" margin="110" />
-  <raid name="panda" file="bossy/panda.xml" interval2="250" margin="110" />
-  <raid name="midnight_panther" file="bossy/midnight_panther.xml" interval2="250" margin="110" />
-  <raid name="manta_ray" file="bossy/manta_ray.xml" interval2="250" margin="110" />
-  <raid name="ladybug" file="bossy/ladybug.xml" interval2="250" margin="110" />
-  <raid name="black_sheep" file="bossy/black_sheep.xml" interval2="250" margin="110" />
-  <raid name="gochabaal" file="bossy/gochabaal.xml" interval2="900" margin="180" />
-  <raid name="morgaroth" file="bossy/morgaroth.xml" interval2="900" margin="180" />
-  <raid name="arachir_the_ancient_one" file="bossy/arachir_the_ancient_one.xml" interval2="500" margin="180" />
-  <raid name="grand_mother_foulscale" file="bossy/grand_mother_foulscale.xml" interval2="500" margin="180" />
-  <raid name="grand_mother_foulscale2" file="bossy/grand_mother_foulscale2.xml" interval2="500" margin="180" />
-  <raid name="dharalion" file="bossy/dharalion.xml" interval2="500" margin="180" />
-  <raid name="dreadmaw" file="bossy/dreadmaw.xml" interval2="500" margin="180" />
-  <raid name="dreadmaw2" file="bossy/dreadmaw2.xml" interval2="500" margin="180" />
-  <raid name="fernfang" file="bossy/fernfang.xml" interval2="500" margin="180" />
-  <raid name="furyosa" file="bossy/furyosa.xml" interval2="500" margin="180" />
-  <raid name="man_in_the_cave" file="bossy/man_in_the_cave.xml" interval2="500" margin="180" />
-  <raid name="smuggler_baron_silvertoe" file="bossy/smuggler_baron_silvertoe.xml" interval2="500" margin="180" />
-  <raid name="teleskor" file="bossy/teleskor.xml" interval2="500" margin="180" />
-  <raid name="bane_lord" file="bossy/bane_lord.xml" interval2="500" margin="180" />
-  <raid name="barbaria" file="bossy/barbaria.xml" interval2="500" margin="180" />
-  <raid name="demodras" file="bossy/demodras.xml" interval2="500" margin="180" />
-  <raid name="demodras2" file="bossy/demodras2.xml" interval2="500" margin="180" />
-  <raid name="grorlam" file="bossy/grorlam.xml" interval2="500" margin="180" />
-  <raid name="hatebreeder" file="bossy/hatebreeder.xml" interval2="500" margin="180" />
-  <raid name="necropharus" file="bossy/necropharus.xml" interval2="500" margin="180" />
-  <raid name="necropharus2" file="bossy/necropharus2.xml" interval2="500" margin="180" />
-  <raid name="necropharus3" file="bossy/necropharus3.xml" interval2="500" margin="180" />
-  <raid name="xenia" file="bossy/xenia.xml" interval2="500" margin="180" />
-  <raid name="ocyakao" file="bossy/ocyakao.xml" interval2="500" margin="180" />
-  <raid name="the_evil_eye" file="bossy/the_evil_eye.xml" interval2="500" margin="180" />
-  <raid name="the_welter" file="bossy/the_welter.xml" interval2="600" margin="180" />
-  <raid name="tyrn" file="bossy/tyrn.xml" interval2="500" margin="180" />
-  <raid name="tyrn2" file="bossy/tyrn2.xml" interval2="500" margin="180" />
+  <raid name="countess_sorrow" file="bossy/countess_sorrow.xml" interval2="319" margin="0" chance="1" repeat="true" />
+  <raid name="koksu" file="bossy/koksu.xml" interval2="451" margin="0" chance="1" repeat="true" />
+  <raid name="dracola" file="bossy/dracola.xml" interval2="100" margin="0" chance="1" repeat="true" />
+  <raid name="massacre" file="bossy/massacre.xml" interval2="88" margin="0" chance="1" repeat="true" />
+  <raid name="mr_punish" file="bossy/mr_punish.xml" interval2="160" margin="0" chance="1" repeat="true" />
+  <raid name="the_imperor" file="bossy/the_imperor.xml" interval2="120" margin="0" chance="1" repeat="true" />
+  <raid name="the_old_widow" file="bossy/the_old_widow.xml" interval2="249" margin="0" chance="1" repeat="true" />
+  <raid name="the_handmaiden" file="bossy/the_handmaiden.xml" interval2="168" margin="0" chance="1" repeat="true" />
+  <raid name="the_plasmother" file="bossy/the_plasmother.xml" interval2="197" margin="0" chance="1" repeat="true" />
+  <raid name="tromphonyte" file="bossy/tromphonyte.xml" interval2="120" margin="0" chance="1" repeat="true" />
+  <raid name="yaga_the_crone" file="bossy/yaga_the_crone.xml" interval2="146" margin="0" chance="1" repeat="true" />
+  <raid name="undead_cavebear" file="bossy/undead_cavebear.xml" interval2="35" margin="0" chance="1" repeat="true" />
+  <raid name="crustacea_gigantica" file="bossy/crustacea_gigantica.xml" interval2="70" margin="0" chance="1" repeat="true" />
+  <raid name="slug" file="bossy/slug.xml" interval2="30" margin="0" chance="3" repeat="true" />
+  <raid name="panda" file="bossy/panda.xml" interval2="30" margin="0" chance="10" repeat="true" />
+  <raid name="midnight_panther" file="bossy/midnight_panther.xml" interval2="125" margin="0" chance="1" repeat="true" />
+  <raid name="manta_ray" file="bossy/manta_ray.xml" interval2="30" margin="0" chance="10" repeat="true" />
+  <raid name="ladybug" file="bossy/ladybug.xml" interval2="30" margin="0" chance="10" repeat="true" />
+  <raid name="black_sheep" file="bossy/black_sheep.xml" interval2="30" margin="0" chance="10" repeat="true" />
+  <raid name="gochabaal" file="bossy/gochabaal.xml" interval2="648" margin="0" chance="1" repeat="true" />
+  <raid name="morgaroth" file="bossy/morgaroth.xml" interval2="351" margin="0" chance="1" repeat="true" />
+  <raid name="arachir_the_ancient_one" file="bossy/arachir_the_ancient_one.xml" interval2="182" margin="0" chance="1" repeat="true" />
+  <raid name="dharalion" file="bossy/dharalion.xml" interval2="105" margin="0" chance="1" repeat="true" />
+  <raid name="dreadmaw" file="bossy/dreadmaw.xml" interval2="369" margin="0" chance="1" repeat="true" />
+  <raid name="dreadmaw2" file="bossy/dreadmaw2.xml" interval2="369" margin="0" chance="1" repeat="true" />
+  <raid name="fernfang" file="bossy/fernfang.xml" interval2="369" margin="0" chance="1" repeat="true" />
+  <raid name="furyosa" file="bossy/furyosa.xml" interval2="761" margin="0" chance="1" repeat="true" />
+  <raid name="man_in_the_cave" file="bossy/man_in_the_cave.xml" interval2="225" margin="0" chance="1" repeat="true" />
+  <raid name="smuggler_baron_silvertoe" file="bossy/smuggler_baron_silvertoe.xml" interval2="62" margin="0" chance="1" repeat="true" />
+  <raid name="teleskor" file="bossy/teleskor.xml" interval2="108" margin="0" chance="1" repeat="true" />
+  <raid name="barbaria" file="bossy/barbaria.xml" interval2="8360" margin="0" chance="1" repeat="true" />
+  <raid name="demodras" file="bossy/demodras.xml" interval2="160" margin="0" chance="1" repeat="true" />
+  <raid name="demodras2" file="bossy/demodras2.xml" interval2="160" margin="0" chance="1" repeat="true" />
+  <raid name="grorlam" file="bossy/grorlam.xml" interval2="197" margin="0" chance="1" repeat="true" />
+  <raid name="hatebreeder" file="bossy/hatebreeder.xml" interval2="595" margin="0" chance="1" repeat="true" />
+  <raid name="necropharus" file="bossy/necropharus.xml" interval2="438" margin="0" chance="1" repeat="true" />
+  <raid name="necropharus2" file="bossy/necropharus2.xml" interval2="438" margin="0" chance="1" repeat="true" />
+  <raid name="necropharus3" file="bossy/necropharus3.xml" interval2="438" margin="0" chance="1" repeat="true" />
+  <raid name="xenia" file="bossy/xenia.xml" interval2="280" margin="0" chance="1" repeat="true" />
+  <raid name="ocyakao" file="bossy/ocyakao.xml" interval2="316" margin="0" chance="1" repeat="true" />
+  <raid name="the_evil_eye" file="bossy/the_evil_eye.xml" interval2="265" margin="0" chance="1" repeat="true" />
+  <raid name="the_welter" file="bossy/the_welter.xml" interval2="279" margin="0" chance="1" repeat="true" />
+  <raid name="tyrn" file="bossy/tyrn.xml" interval2="272" margin="0" chance="1" repeat="true" />
+  <raid name="tyrn2" file="bossy/tyrn2.xml" interval2="272" margin="0" chance="1" repeat="true" />
 	<raid name="The Flaming Orchid" file="bossy/The Flaming Orchid.xml" interval2="30" margin="0" chance="50" repeat="true"/> <!-- The Flaming Orchid -->
 </raids>
+30-0,2,4,0,2,0,5,4,4,1,4

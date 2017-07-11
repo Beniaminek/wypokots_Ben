@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Barbarzyccy zbieraja sie w swojej wiosce. Wydaje sie, ze do czegos sie zbieraja" />
+<announce delay="240000" type="event" message="Grupa barbarzyncow wywedrowala ze swojej wioski na pobliskie krainy." />
+
+  <areaspawn delay="240000" fromx="6502" fromy="1808" fromz="7" tox="6561" toy="1840" toz="7">
+    <monster name="Barbarian Bloodwalker" amount="8" />
+    <monster name="Barbarian Brutetamer" amount="10" />
+    <monster name="Barbarian Headsplitter" amount="15" />
+    <monster name="Barbarian Skullhunter" amount="15" />
+  </areaspawn>
+</raid>

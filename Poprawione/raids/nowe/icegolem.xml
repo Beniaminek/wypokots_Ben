@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Niespodziewanie wzrozla populacja Ice Golemow w lodowych gorach na polnocy" />
+    <areaspawn delay="1000" fromx="6522" fromy="1756" fromz="9" tox="6545" toy="1789" toz="9">
+        <monster name="Ice Golem" amount="4" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6545" fromy="1738" fromz="8" tox="6603" toy="1772" toz="8">
+        <monster name="Ice Golem" amount="12" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6506" fromy="1758" fromz="8" tox="6525" toy="1798" toz="8">
+        <monster name="Ice Golem" amount="6" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6529" fromy="1789" fromz="7" tox="6563" toy="1812" toz="7">
+        <monster name="Ice Golem" amount="8" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6541" fromy="1802" fromz="6" tox="6559" toy="1818" toz="6">
+        <monster name="Ice Golem" amount="3" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6528" fromy="1798" fromz="5" tox="6562" toy="1813" toz="5">
+        <monster name="Ice Golem" amount="6" />
+    </areaspawn>
+    <areaspawn delay="1000" fromx="6548" fromy="1796" fromz="3" tox="6564" toy="1810" toz="3">
+        <monster name="Ice Golem" amount="5" />
+    </areaspawn>
+</raid>
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<!--<announce delay="1000" type="event" message="Zolwie" />-->
+
+  <areaspawn delay="10000" fromx="7007" fromy="786" fromz="6" tox="7065" toy="816" toz="6">
+        <monster name="Tortoise" minamount="10" maxamount="30" />
+  </areaspawn>
+
+</raid>

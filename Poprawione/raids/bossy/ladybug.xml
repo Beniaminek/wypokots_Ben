@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Ladybug" />-->
+  <singlespawn delay="10000" name="Ladybug" x="6614" y="783" z="7" />
+  <singlespawn delay="10000" name="Ladybug" x="6625" y="770" z="7" />
+  <singlespawn delay="10000" name="Ladybug" x="6637" y="784" z="7" />
+</raid>

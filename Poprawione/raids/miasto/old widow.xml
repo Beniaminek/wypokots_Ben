@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<!-- Do poprawy: delaye, weryfikacja ilosci po zapelnieniu tej przestrzeni na ktorej sie respia  -->
+<announce delay="1000" type="event" message="Niezwykle ogromne pajaki zostaly zauwazone w okolicach lezy tarantul!" />
+<announce delay="10000" type="event" message="Radzimy nie wybierac sie do obozowiska mysliwych!" />
+<areaspawn delay="120000" fromx="5948" fromy="1601" fromz="7" tox="6040" toy="1706" toz="7">
+        <monster name="Giant Spider" amount="10" />
+        <monster name="Tarantula" amount="10" />
+  </areaspawn>
+
+  <areaspawn delay="120000" fromx="5935" fromy="1689" fromz="8" tox="5971" toy="1713" toz="8">
+        <monster name="Giant Spider" amount="1" />
+        <monster name="Tarantula" amount="1" />
+  </areaspawn>
+  
+  <areaspawn delay="120000" fromx="6018" fromy="1653" fromz="8" tox="6038" toy="1668" toz="8">
+        <monster name="Giant Spider" amount="0" />
+        <monster name="Tarantula" amount="1" />
+  </areaspawn>
+    <areaspawn delay="120000" fromx="5965" fromy="1661" fromz="9" tox="6015" toy="1705" toz="9">
+        <monster name="Giant Spider" amount="2" />
+        <monster name="Tarantula" amount="6" />
+  </areaspawn>
+
+  <announce delay="600000" type="event" message="Smialkowie powinni postarac sie wytepic pajeczaki!" />
+  
+  <areaspawn delay="600000" fromx="5948" fromy="1601" fromz="7" tox="6040" toy="1706" toz="7">
+        <monster name="Giant Spider" amount="40" />
+        <monster name="Tarantula" amount="40" />
+  </areaspawn>
+
+  <areaspawn delay="600000" fromx="5935" fromy="1689" fromz="8" tox="5971" toy="1713" toz="8">
+        <monster name="Giant Spider" amount="3" />
+        <monster name="Tarantula" amount="4" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="6018" fromy="1653" fromz="8" tox="6038" toy="1668" toz="8">
+        <monster name="Giant Spider" amount="1" />
+        <monster name="Tarantula" amount="2" />
+  </areaspawn>
+    <areaspawn delay="600000" fromx="5965" fromy="1661" fromz="9" tox="6015" toy="1705" toz="9">
+        <monster name="Giant Spider" amount="6" />
+        <monster name="Tarantula" amount="12" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="5954" fromy="1649" fromz="7" tox="6032" toy="1694" toz="7">
+        <monster name="The Old Widow" minamount="1" maxamount="1" />
+  </areaspawn>
+
+</raid>
+{x = 6012, y = 1700, z = 9}

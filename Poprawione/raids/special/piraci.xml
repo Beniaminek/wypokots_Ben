@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<!-- Do poprawy: delaye, weryfikacja ilosci po zapelnieniu tej przestrzeni na ktorej sie respia  -->
+<announce delay="1000" type="event" message="Piraci zaatakowali miasto w dzungli" />
+
+  <areaspawn delay="10000" fromx="6976" fromy="741" fromz="6" tox="7064" toy="814" toz="5">
+        <monster name="Pirate Corsair" minamount="30" maxamount="40" />
+        <monster name="Pirate Buccaneer" minamount="40" maxamount="60" />
+        <monster name="Pirate Cutthroat" minamount="40" maxamount="60" />
+        <monster name="Pirate Marauder" minamount="40" maxamount="60" />
+        <monster name="Smuggler" minamount="20" maxamount="40" />
+  </areaspawn>
+
+<announce delay="170000" type="event" message="Piraci dosylaja wsparcie" />
+
+  <areaspawn delay="180000" fromx="6976" fromy="741" fromz="6" tox="7064" toy="814" toz="5">
+        <monster name="Pirate Corsair" minamount="40" maxamount="50" />
+        <monster name="Pirate Buccaneer" minamount="30" maxamount="40" />
+        <monster name="Pirate Cutthroat" minamount="30" maxamount="40" />
+        <monster name="Pirate Marauder" minamount="30" maxamount="50" />
+        <monster name="Smuggler" minamount="10" maxamount="20" />
+  </areaspawn>
+
+<announce delay="350000" type="event" message="Piraci przyslali dodatkowe posilki" />
+
+  <areaspawn delay="360000" fromx="6976" fromy="741" fromz="6" tox="7064" toy="814" toz="5">
+        <monster name="Pirate Corsair" minamount="40" maxamount="60" />
+        <monster name="Pirate Buccaneer" minamount="50" maxamount="80" />
+        <monster name="Pirate Cutthroat" minamount="50" maxamount="80" />
+        <monster name="Pirate Marauder" minamount="50" maxamount="80" />
+        <monster name="Smuggler" minamount="30" maxamount="50" />
+  </areaspawn>
+
+  <singlespawn delay="360000" name="Ron The Ripper" x="7021" y="804" z="6" />
+  <singlespawn delay="360000" name="Lethal Lissy" x="7040" y="774" z="6" />
+  <singlespawn delay="360000" name="Brutus Bloodbeard" x="6982" y="750" z="6" />
+  <singlespawn delay="360000" name="Deadeye Devious" x="7012" y="763" z="6" />
+
+
+</raid>

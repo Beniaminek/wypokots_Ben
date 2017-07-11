@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<!-- Do poprawy: delaye, weryfikacja ilosci po zapelnieniu tej przestrzeni na ktorej sie respia  -->
+<announce delay="1000" type="event" message="Antyczne Skarabeusze okrazaja pustynne miasto!" />
+
+  <areaspawn delay="60000" fromx="6618" fromy="1264" fromz="7" tox="6670" toy="1378" toz="7">
+	<monster name="Ancient Scarab" minamount="20" maxamount="40" />	
+	<monster name="Scarab" minamount="50" maxamount="60" />
+	<monster name="Larva" minamount="100" maxamount="120" />
+  </areaspawn>
+  
+  <areaspawn delay="60000" fromx="6748" fromy="1264" fromz="7" tox="6773" toy="1324" toz="7">
+	<monster name="Ancient Scarab" minamount="15" maxamount="20" />	
+	<monster name="Scarab" minamount="30" maxamount="40" />
+	<monster name="Larva" minamount="30" maxamount="40" />
+  </areaspawn>
+
+  <announce delay="370000" type="event" message="Skarabeuszy jest coraz wiecej!" />
+
+  <areaspawn delay="380000" fromx="6618" fromy="1264" fromz="7" tox="6670" toy="1378" toz="7">
+	<monster name="Ancient Scarab" minamount="20" maxamount="40" />	
+	<monster name="Scarab" minamount="100" maxamount="120" />
+	<monster name="Larva" minamount="30" maxamount="40" />
+  </areaspawn>
+
+  <areaspawn delay="380000" fromx="6720" fromy="1272" fromz="7" tox="6773" toy="1324" toz="7">
+	<monster name="Ancient Scarab" minamount="15" maxamount="20" />	
+	<monster name="Scarab" minamount="30" maxamount="40" />
+	<monster name="Larva" minamount="15" maxamount="30" />
+  </areaspawn>
+
+  <announce delay="560000" type="event" message="Skarabeusze wtargnely do miasta!" />
+
+  <areaspawn delay="560000" fromx="6662" fromy="1264" fromz="7" tox="6748" toy="1374" toz="7">
+	<monster name="Ancient Scarab" minamount="40" maxamount="60" />	
+	<monster name="Scarab" minamount="60" maxamount="100" />
+	<monster name="Fleshcrawler" minamount="1" maxamount="2" />
+  </areaspawn>
+
+</raid>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Wzmozona ilosc malp zostala zauwazona pod miastem" />
+
+  <areaspawn delay="10000" fromx="6900" fromy="694" fromz="7" tox="6993" toy="767" toz="7">
+        <monster name="Sibang" minamount="50" maxamount="70" />
+        <monster name="Kongra" minamount="50" maxamount="70" />
+        <monster name="Merlkin" minamount="50" maxamount="70" />
+        <monster name="Hairman the Huge" minamount="1" maxamount="2" />
+  </areaspawn>
+  
+  <areaspawn delay="10000" fromx="6976" fromy="749" fromz="6" tox="7065" toy="816" toz="5">
+        <monster name="Sibang" minamount="10" maxamount="30" />
+        <monster name="Kongra" minamount="10" maxamount="30" />
+        <monster name="Merlkin" minamount="10" maxamount="30" />
+  </areaspawn>
+
+<announce delay="180000" type="event" message="Uporczywe malpy znow proboja okrasc miasto!" />
+  
+  <areaspawn delay="180000" fromx="6976" fromy="749" fromz="6" tox="7065" toy="816" toz="5">
+        <monster name="Sibang" minamount="70" maxamount="100" />
+        <monster name="Kongra" minamount="70" maxamount="100" />
+        <monster name="Merlkin" minamount="70" maxamount="100" />
+  </areaspawn>
+  
+<announce delay="320000" type="event" message="Kto moze niech stara sie je wypedzic!" />
+
+  <areaspawn delay="320000" fromx="6976" fromy="749" fromz="6" tox="7065" toy="816" toz="5">
+        <monster name="Sibang" minamount="70" maxamount="100" />
+        <monster name="Kongra" minamount="70" maxamount="100" />
+        <monster name="Merlkin" minamount="70" maxamount="100" />
+        <monster name="Hairman the Huge" minamount="1" maxamount="2" />
+  </areaspawn>
+
+</raid>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Undead Cavebear" />-->
+  <singlespawn delay="10000" name="Undead Cavebear" x="5848" y="1079" z="10" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="5860" y="1104" z="10" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="5867" y="1073" z="10" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="6219" y="1226" z="9" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="6269" y="1243" z="9" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="6240" y="1262" z="9" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="6283" y="1275" z="9" />
+  <singlespawn delay="10000" name="Undead Cavebear" x="6256" y="1284" z="9" />
+</raid>

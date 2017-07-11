@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Midnight Panther" />-->
+  <singlespawn delay="10000" name="Midnight Panther" x="6673" y="943" z="10" />
+  <singlespawn delay="10000" name="Midnight Panther" x="6668" y="939" z="10" />
+  <singlespawn delay="10000" name="Midnight Panther" x="6680" y="916" z="10" />
+</raid>

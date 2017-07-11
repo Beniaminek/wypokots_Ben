@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Black Sheep" />-->
+  <singlespawn delay="10000" name="Black sheep" x="5534" y="1593" z="7" />
+  <singlespawn delay="10000" name="Black sheep" x="5542" y="1580" z="7" />
+  <singlespawn delay="10000" name="Black sheep" x="5538" y="1586" z="7" />
+</raid>

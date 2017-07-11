@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--<announce delay="1000" type="event" message="Raid Crustacea Gigantica" />-->
+  <singlespawn delay="10000" name="Crustacea Gigantica" x="6701" y="1071" z="9" />
+  <singlespawn delay="10000" name="Crustacea Gigantica" x="6722" y="1066" z="9" />
+  <singlespawn delay="10000" name="Crustacea Gigantica" x="6694" y="1077" z="8" />
+</raid>
